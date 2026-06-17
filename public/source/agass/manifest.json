@@ -1,0 +1,2282 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "agass",
+  "exportedAt": "2026-06-01T09:38:14.699Z",
+  "sourceRoots": [
+    "Source",
+    "Plugins"
+  ],
+  "entryFile": "Source/AGASS/Public/AGASSPlayerController.h",
+  "metrics": {
+    "fileCount": 282,
+    "totalBytes": 1302817,
+    "totalLines": 41518,
+    "languageCounts": {
+      "cpp": 139,
+      "cpp-header": 143
+    },
+    "ownershipCounts": {
+      "project-code": 16,
+      "project-plugin": 266,
+      "third-party-plugin": 0
+    }
+  },
+  "files": [
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/AGASSCommonModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/AGASSCommonModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 180,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Player/AGASSLocalPlayer.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Player/AGASSLocalPlayer.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 185,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Settings/AGASSBenchmarkDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Settings/AGASSBenchmarkDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 592,
+      "lines": 24
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Settings/AGASSSettingsLocal.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Settings/AGASSSettingsLocal.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 12424,
+      "lines": 436
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Subsystems/AGASSGameplayEventSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Subsystems/AGASSGameplayEventSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1419,
+      "lines": 41
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Subsystems/AGASSPlatformMenuSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Private/Subsystems/AGASSPlatformMenuSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2094,
+      "lines": 64
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Interfaces/AGASSCarriedUsablePresentationInterface.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Interfaces/AGASSCarriedUsablePresentationInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 855,
+      "lines": 27
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Interfaces/AGASSInteractableInterface.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Interfaces/AGASSInteractableInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 812,
+      "lines": 28
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Interfaces/AGASSSharedTeamMoneyInterface.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Interfaces/AGASSSharedTeamMoneyInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 716,
+      "lines": 26
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Player/AGASSLocalPlayer.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Player/AGASSLocalPlayer.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 304,
+      "lines": 17
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Settings/AGASSBenchmarkDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Settings/AGASSBenchmarkDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1386,
+      "lines": 39
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Settings/AGASSSettingsLocal.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Settings/AGASSSettingsLocal.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 6030,
+      "lines": 295
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Subsystems/AGASSGameplayEventSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Subsystems/AGASSGameplayEventSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2158,
+      "lines": 90
+    },
+    {
+      "path": "Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Subsystems/AGASSPlatformMenuSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSCommon/Source/AGASSCommon/Public/Subsystems/AGASSPlatformMenuSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1493,
+      "lines": 42
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Actors/AGASSSellZone.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Actors/AGASSSellZone.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 10942,
+      "lines": 379
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Actors/AGASSShopTerminal.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Actors/AGASSShopTerminal.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 25742,
+      "lines": 658
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/AGASSEconomyModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/AGASSEconomyModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 183,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Components/AGASSTeamWalletComponent.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Components/AGASSTeamWalletComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2943,
+      "lines": 105
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Data/AGASSShopCatalog.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Data/AGASSShopCatalog.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 774,
+      "lines": 36
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Settings/AGASSEconomyDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Settings/AGASSEconomyDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 614,
+      "lines": 24
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Subsystems/AGASSEconomyHUDSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/Subsystems/AGASSEconomyHUDSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3473,
+      "lines": 150
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/UI/AGASSTeamMoneyTestWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Private/UI/AGASSTeamMoneyTestWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 4593,
+      "lines": 158
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Actors/AGASSSellZone.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Actors/AGASSSellZone.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3204,
+      "lines": 106
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Actors/AGASSShopTerminal.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Actors/AGASSShopTerminal.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 5824,
+      "lines": 177
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Components/AGASSTeamWalletComponent.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Components/AGASSTeamWalletComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1444,
+      "lines": 47
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Data/AGASSShopCatalog.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Data/AGASSShopCatalog.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1676,
+      "lines": 54
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Settings/AGASSEconomyDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Settings/AGASSEconomyDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1007,
+      "lines": 36
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Subsystems/AGASSEconomyHUDSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/Subsystems/AGASSEconomyHUDSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 865,
+      "lines": 34
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/UI/AGASSTeamMoneyTestWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEconomy/Source/AGASSEconomy/Public/UI/AGASSTeamMoneyTestWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1116,
+      "lines": 45
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEditor/Source/AGASSEditor/Private/AGASSEditorModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEditor/Source/AGASSEditor/Private/AGASSEditorModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 30169,
+      "lines": 858
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEditor/Source/AGASSEditor/Private/Settings/AGASSModExportDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEditor/Source/AGASSEditor/Private/Settings/AGASSModExportDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 688,
+      "lines": 26
+    },
+    {
+      "path": "Plugins/AGASS/AGASSEditor/Source/AGASSEditor/Public/Settings/AGASSModExportDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSEditor/Source/AGASSEditor/Public/Settings/AGASSModExportDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 894,
+      "lines": 31
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/AGASSFrontendModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/AGASSFrontendModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 186,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Input/AGASSCommonInputData.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Input/AGASSCommonInputData.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1139,
+      "lines": 30
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Settings/AGASSFrontendDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Settings/AGASSFrontendDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2953,
+      "lines": 58
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Subsystems/AGASSUIManagerSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Subsystems/AGASSUIManagerSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 30790,
+      "lines": 957
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Subsystems/AGASSUIPolicy.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/Subsystems/AGASSUIPolicy.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 8976,
+      "lines": 276
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSActivatableWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSActivatableWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 837,
+      "lines": 33
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSBenchmarkScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSBenchmarkScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3421,
+      "lines": 126
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSBoundActionButtonWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSBoundActionButtonWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2124,
+      "lines": 54
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSCreditsScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSCreditsScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1978,
+      "lines": 38
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFriendTimedRunEntryWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFriendTimedRunEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2228,
+      "lines": 72
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendButtonBase.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendButtonBase.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 5737,
+      "lines": 225
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendPrimaryLayoutWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendPrimaryLayoutWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 5790,
+      "lines": 179
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendPrototypeButtonBase.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendPrototypeButtonBase.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 224,
+      "lines": 11
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendPrototypeLayoutWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendPrototypeLayoutWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 404,
+      "lines": 11
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 11302,
+      "lines": 351
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendUITags.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSFrontendUITags.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 453,
+      "lines": 9
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSGameMenuScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSGameMenuScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 8959,
+      "lines": 275
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSLoadingScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSLoadingScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1770,
+      "lines": 55
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSMainMenuScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSMainMenuScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 14063,
+      "lines": 394
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSMapSelectionEntryWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSMapSelectionEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 4635,
+      "lines": 143
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSModsAndMapsScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSModsAndMapsScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 10202,
+      "lines": 317
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSModToggleEntryWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSModToggleEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 6298,
+      "lines": 186
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSOptionsScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSOptionsScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 15703,
+      "lines": 482
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSPrimaryGameLayout.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSPrimaryGameLayout.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3446,
+      "lines": 127
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSSessionBrowserEntryWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSSessionBrowserEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 6275,
+      "lines": 195
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSSessionBrowserScreenWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/AGASSSessionBrowserScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 7622,
+      "lines": 234
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingKeyBind.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingKeyBind.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 7890,
+      "lines": 313
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingListView.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingListView.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 5007,
+      "lines": 148
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingPanelWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingPanelWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2911,
+      "lines": 99
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingPressAnyKeyWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingPressAnyKeyWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 9403,
+      "lines": 322
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingRegistry.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingRegistry.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 45133,
+      "lines": 751
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingWidgets.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSGameSettingWidgets.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 31339,
+      "lines": 932
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSKeyAlreadyBoundWarningWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSKeyAlreadyBoundWarningWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 7031,
+      "lines": 233
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSOptionsTabListWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Private/UI/Settings/AGASSOptionsTabListWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3122,
+      "lines": 108
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Input/AGASSCommonInputData.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Input/AGASSCommonInputData.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 582,
+      "lines": 31
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Settings/AGASSFrontendDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Settings/AGASSFrontendDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3971,
+      "lines": 101
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Subsystems/AGASSUIManagerSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Subsystems/AGASSUIManagerSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 4187,
+      "lines": 100
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Subsystems/AGASSUIPolicy.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/Subsystems/AGASSUIPolicy.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2529,
+      "lines": 77
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSActivatableWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSActivatableWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 515,
+      "lines": 20
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSBenchmarkScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSBenchmarkScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1083,
+      "lines": 39
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSBoundActionButtonWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSBoundActionButtonWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 408,
+      "lines": 17
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSCreditsScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSCreditsScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 585,
+      "lines": 22
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFriendTimedRunEntryWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFriendTimedRunEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 637,
+      "lines": 29
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendButtonBase.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendButtonBase.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1890,
+      "lines": 59
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendPrimaryLayoutWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendPrimaryLayoutWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1490,
+      "lines": 53
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendPrototypeButtonBase.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendPrototypeButtonBase.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 472,
+      "lines": 21
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendPrototypeLayoutWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendPrototypeLayoutWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 535,
+      "lines": 21
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3207,
+      "lines": 81
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendUITags.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSFrontendUITags.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 292,
+      "lines": 11
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSGameMenuScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSGameMenuScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1622,
+      "lines": 61
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSLoadingScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSLoadingScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 816,
+      "lines": 31
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSMainMenuScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSMainMenuScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2341,
+      "lines": 88
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSMapSelectionEntryWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSMapSelectionEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 830,
+      "lines": 37
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSModsAndMapsScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSModsAndMapsScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1669,
+      "lines": 62
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSModToggleEntryWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSModToggleEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 826,
+      "lines": 37
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSOptionsScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSOptionsScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3125,
+      "lines": 98
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSPrimaryGameLayout.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSPrimaryGameLayout.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1621,
+      "lines": 46
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSSessionBrowserEntryWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSSessionBrowserEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1038,
+      "lines": 42
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSSessionBrowserScreenWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/AGASSSessionBrowserScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1569,
+      "lines": 59
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingKeyBind.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingKeyBind.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1847,
+      "lines": 75
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingListView.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingListView.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 821,
+      "lines": 27
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingPanelWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingPanelWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 555,
+      "lines": 22
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingPressAnyKeyWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingPressAnyKeyWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1611,
+      "lines": 53
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingRegistry.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingRegistry.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1703,
+      "lines": 50
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingWidgets.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSGameSettingWidgets.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 4023,
+      "lines": 123
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSKeyAlreadyBoundWarningWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSKeyAlreadyBoundWarningWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1418,
+      "lines": 51
+    },
+    {
+      "path": "Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSOptionsTabListWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSFrontend/Source/AGASSFrontend/Public/UI/Settings/AGASSOptionsTabListWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1070,
+      "lines": 38
+    },
+    {
+      "path": "Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Private/Actors/AGASSPlacementPreviewActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Private/Actors/AGASSPlacementPreviewActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 13464,
+      "lines": 436
+    },
+    {
+      "path": "Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Private/AGASSInteractionModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Private/AGASSInteractionModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 195,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Private/Components/AGASSInteractionComponent.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Private/Components/AGASSInteractionComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 33643,
+      "lines": 1128
+    },
+    {
+      "path": "Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Public/Actors/AGASSPlacementPreviewActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Public/Actors/AGASSPlacementPreviewActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 5102,
+      "lines": 130
+    },
+    {
+      "path": "Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Public/Components/AGASSInteractionComponent.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSInteraction/Source/AGASSInteraction/Public/Components/AGASSInteractionComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 6405,
+      "lines": 172
+    },
+    {
+      "path": "Plugins/AGASS/AGASSModdingKitSupport/Source/AGASSModdingKitSupport/Private/AGASSModdingKitSupportModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSModdingKitSupport/Source/AGASSModdingKitSupport/Private/AGASSModdingKitSupportModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 8821,
+      "lines": 280
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Private/AGASSModsModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Private/AGASSModsModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 174,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Private/Settings/AGASSModsDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Private/Settings/AGASSModsDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1070,
+      "lines": 30
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Private/Subsystems/AGASSModsSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Private/Subsystems/AGASSModsSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 42149,
+      "lines": 1346
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Data/AGASSMapDefinition.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Data/AGASSMapDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1441,
+      "lines": 50
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Data/AGASSModManifest.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Data/AGASSModManifest.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1504,
+      "lines": 50
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Settings/AGASSModsDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Settings/AGASSModsDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1995,
+      "lines": 64
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Subsystems/AGASSModsSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Subsystems/AGASSModsSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3179,
+      "lines": 86
+    },
+    {
+      "path": "Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Types/AGASSModsTypes.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSMods/Source/AGASSMods/Public/Types/AGASSModsTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 7539,
+      "lines": 264
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/AGASSOnlineModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/AGASSOnlineModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 180,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Components/AGASSSessionInfoComponent.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Components/AGASSSessionInfoComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1420,
+      "lines": 52
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Settings/AGASSOnlineDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Settings/AGASSOnlineDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 763,
+      "lines": 25
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Subsystems/AGASSInviteCodeSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Subsystems/AGASSInviteCodeSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1358,
+      "lines": 48
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Subsystems/AGASSSessionSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Private/Subsystems/AGASSSessionSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 60862,
+      "lines": 1755
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Components/AGASSSessionInfoComponent.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Components/AGASSSessionInfoComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1251,
+      "lines": 51
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Settings/AGASSOnlineDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Settings/AGASSOnlineDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1420,
+      "lines": 44
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Subsystems/AGASSInviteCodeSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Subsystems/AGASSInviteCodeSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 406,
+      "lines": 16
+    },
+    {
+      "path": "Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Subsystems/AGASSSessionSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSOnline/Source/AGASSOnline/Public/Subsystems/AGASSSessionSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 7383,
+      "lines": 214
+    },
+    {
+      "path": "Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/AGASSSteamModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/AGASSSteamModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 177,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/Settings/AGASSSteamDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/Settings/AGASSSteamDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1728,
+      "lines": 43
+    },
+    {
+      "path": "Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/Subsystems/AGASSSteamFriendsUISubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/Subsystems/AGASSSteamFriendsUISubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 6262,
+      "lines": 179
+    },
+    {
+      "path": "Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/Subsystems/AGASSSteamPlatformSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Private/Subsystems/AGASSSteamPlatformSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 45689,
+      "lines": 1573
+    },
+    {
+      "path": "Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Public/Settings/AGASSSteamDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Public/Settings/AGASSSteamDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3271,
+      "lines": 128
+    },
+    {
+      "path": "Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Public/Subsystems/AGASSSteamFriendsUISubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Public/Subsystems/AGASSSteamFriendsUISubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 960,
+      "lines": 28
+    },
+    {
+      "path": "Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Public/Subsystems/AGASSSteamPlatformSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSSteam/Source/AGASSSteam/Public/Subsystems/AGASSSteamPlatformSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 6508,
+      "lines": 163
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSCarryableItemActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSCarryableItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 4077,
+      "lines": 175
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSFumigeneUsableItemActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSFumigeneUsableItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 18929,
+      "lines": 644
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSFumigeneUtilityItemActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSFumigeneUtilityItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 50,
+      "lines": 1
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSHeldUseUtilityItemActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSHeldUseUtilityItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 49,
+      "lines": 1
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSItemSpawnerActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSItemSpawnerActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 9383,
+      "lines": 330
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsCarActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsCarActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2473,
+      "lines": 81
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsOfficerCharacter.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsOfficerCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 4818,
+      "lines": 151
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsRouteAnchorActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsRouteAnchorActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2461,
+      "lines": 61
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsSessionEventActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadCopsSessionEventActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 33250,
+      "lines": 1173
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadPlaneAircraftActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadPlaneAircraftActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2244,
+      "lines": 73
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadPlaneRouteAnchorActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadPlaneRouteAnchorActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1427,
+      "lines": 37
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadPlaneSessionEventActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSMadPlaneSessionEventActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 14189,
+      "lines": 470
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSObjectiveActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSObjectiveActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 5153,
+      "lines": 160
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSPlaceableItemActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSPlaceableItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 40323,
+      "lines": 1501
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSScaffoldingPlaceableActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSScaffoldingPlaceableActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 33138,
+      "lines": 1080
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSSessionEventActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSSessionEventActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1215,
+      "lines": 54
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSTimedRunStartActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSTimedRunStartActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3029,
+      "lines": 92
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSUsableItemActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSUsableItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 12800,
+      "lines": 419
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSUtilityPlaceableActor.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Actors/AGASSUtilityPlaceableActor.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1335,
+      "lines": 45
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/AGASSMadCopsPrototype.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/AGASSMadCopsPrototype.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 81,
+      "lines": 1
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/AGASSTowerModule.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/AGASSTowerModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 177,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Blueprint/AGASSTimedRunBlueprintLibrary.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Blueprint/AGASSTimedRunBlueprintLibrary.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1222,
+      "lines": 32
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Components/AGASSRunStateComponent.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Components/AGASSRunStateComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 10223,
+      "lines": 353
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Components/AGASSSessionEventManagerComponent.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Components/AGASSSessionEventManagerComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 15664,
+      "lines": 532
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSItemDefinition.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSItemDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 657,
+      "lines": 23
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSItemSpawnerPoolData.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSItemSpawnerPoolData.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2688,
+      "lines": 101
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSMadCopsSessionEventDefinition.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSMadCopsSessionEventDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 573,
+      "lines": 16
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSMadPlaneSessionEventDefinition.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSMadPlaneSessionEventDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1042,
+      "lines": 32
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSSessionEventDefinition.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSSessionEventDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 364,
+      "lines": 12
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSUsableItemDefinition.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Data/AGASSUsableItemDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 44,
+      "lines": 1
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/SessionEvents/AGASSTowerStructureAnalysis.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/SessionEvents/AGASSTowerStructureAnalysis.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 6461,
+      "lines": 239
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/SessionEvents/AGASSTowerStructureAnalysis.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/SessionEvents/AGASSTowerStructureAnalysis.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 787,
+      "lines": 24
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Settings/AGASSTowerDeveloperSettings.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Settings/AGASSTowerDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1220,
+      "lines": 36
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Subsystems/AGASSTowerBootstrapSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Subsystems/AGASSTowerBootstrapSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 4114,
+      "lines": 132
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Subsystems/AGASSTowerHUDSubsystem.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/Subsystems/AGASSTowerHUDSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 9200,
+      "lines": 330
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/UI/AGASSEndOfRunWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/UI/AGASSEndOfRunWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 10141,
+      "lines": 304
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/UI/AGASSTimedRunHUDWidget.cpp",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Private/UI/AGASSTimedRunHUDWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 5448,
+      "lines": 196
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSCarryableItemActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSCarryableItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2179,
+      "lines": 70
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSFumigeneUsableItemActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSFumigeneUsableItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 6303,
+      "lines": 173
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSFumigeneUtilityItemActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSFumigeneUtilityItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 278,
+      "lines": 11
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSHeldUseUtilityItemActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSHeldUseUtilityItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 270,
+      "lines": 11
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSItemSpawnerActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSItemSpawnerActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3067,
+      "lines": 88
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsCarActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsCarActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1281,
+      "lines": 46
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsOfficerCharacter.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsOfficerCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1360,
+      "lines": 39
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsRouteAnchorActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsRouteAnchorActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1499,
+      "lines": 37
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsSessionEventActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadCopsSessionEventActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 6011,
+      "lines": 161
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadPlaneAircraftActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadPlaneAircraftActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1047,
+      "lines": 40
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadPlaneRouteAnchorActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadPlaneRouteAnchorActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 989,
+      "lines": 35
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadPlaneSessionEventActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSMadPlaneSessionEventActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 4075,
+      "lines": 117
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSObjectiveActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSObjectiveActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3009,
+      "lines": 86
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSPlaceableItemActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSPlaceableItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 7204,
+      "lines": 177
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSScaffoldingPlaceableActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSScaffoldingPlaceableActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 5878,
+      "lines": 109
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSSessionEventActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSSessionEventActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1486,
+      "lines": 52
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSTimedRunStartActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSTimedRunStartActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1575,
+      "lines": 51
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSUsableItemActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSUsableItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2779,
+      "lines": 83
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSUtilityPlaceableActor.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Actors/AGASSUtilityPlaceableActor.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 693,
+      "lines": 22
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Blueprint/AGASSTimedRunBlueprintLibrary.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Blueprint/AGASSTimedRunBlueprintLibrary.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 682,
+      "lines": 26
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Components/AGASSRunStateComponent.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Components/AGASSRunStateComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 4926,
+      "lines": 185
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Components/AGASSSessionEventManagerComponent.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Components/AGASSSessionEventManagerComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3710,
+      "lines": 108
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSItemDefinition.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSItemDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3092,
+      "lines": 76
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSItemSpawnerPoolData.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSItemSpawnerPoolData.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1103,
+      "lines": 36
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSMadCopsSessionEventDefinition.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSMadCopsSessionEventDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3405,
+      "lines": 71
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSMadPlaneSessionEventDefinition.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSMadPlaneSessionEventDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2281,
+      "lines": 50
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSObjectiveDefinition.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSObjectiveDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 157,
+      "lines": 4
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSPlaceableBehaviorData.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSPlaceableBehaviorData.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 606,
+      "lines": 15
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSPlaceableItemRuntimeData.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSPlaceableItemRuntimeData.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1193,
+      "lines": 57
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSRespawnTuningData.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSRespawnTuningData.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 776,
+      "lines": 24
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSScaffoldingBehaviorData.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSScaffoldingBehaviorData.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1063,
+      "lines": 29
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSSessionEventDefinition.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSSessionEventDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3081,
+      "lines": 65
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSUsableItemDefinition.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Data/AGASSUsableItemDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 942,
+      "lines": 29
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Interfaces/AGASSObjectiveRuntimeInterface.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Interfaces/AGASSObjectiveRuntimeInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 462,
+      "lines": 22
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Interfaces/AGASSTimedRunRuntimeInterface.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Interfaces/AGASSTimedRunRuntimeInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 661,
+      "lines": 27
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Settings/AGASSTowerDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Settings/AGASSTowerDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2548,
+      "lines": 62
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Subsystems/AGASSTowerBootstrapSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Subsystems/AGASSTowerBootstrapSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 559,
+      "lines": 21
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Subsystems/AGASSTowerHUDSubsystem.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Subsystems/AGASSTowerHUDSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1214,
+      "lines": 42
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Types/AGASSTimedRunTypes.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/Types/AGASSTimedRunTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 924,
+      "lines": 36
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/UI/AGASSEndOfRunWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/UI/AGASSEndOfRunWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1255,
+      "lines": 55
+    },
+    {
+      "path": "Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/UI/AGASSTimedRunHUDWidget.h",
+      "snapshotPath": "files/Plugins/AGASS/AGASSTower/Source/AGASSTower/Public/UI/AGASSTimedRunHUDWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2362,
+      "lines": 76
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/DataSource/GameSettingDataSourceDynamic.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/DataSource/GameSettingDataSourceDynamic.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1166,
+      "lines": 40
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/EditCondition/WhenPlatformHasTrait.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/EditCondition/WhenPlatformHasTrait.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2327,
+      "lines": 76
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/EditCondition/WhenPlayingAsPrimaryPlayer.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/EditCondition/WhenPlayingAsPrimaryPlayer.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 724,
+      "lines": 23
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSetting.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSetting.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 8793,
+      "lines": 337
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingAction.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingAction.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 1387,
+      "lines": 54
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingCollection.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingCollection.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3558,
+      "lines": 123
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingFilterState.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingFilterState.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3869,
+      "lines": 152
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingsModule.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingsModule.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 553,
+      "lines": 32
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingValue.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingValue.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 762,
+      "lines": 31
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingValueDiscrete.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingValueDiscrete.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 849,
+      "lines": 36
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingValueDiscreteDynamic.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingValueDiscreteDynamic.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 7700,
+      "lines": 258
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingValueScalar.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingValueScalar.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 760,
+      "lines": 30
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/GameSettingValueScalarDynamic.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/GameSettingValueScalarDynamic.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 7147,
+      "lines": 216
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Registry/GameSettingRegistry.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Registry/GameSettingRegistry.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 4677,
+      "lines": 168
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Registry/GameSettingRegistryChangeTracker.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Registry/GameSettingRegistryChangeTracker.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2214,
+      "lines": 102
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/GameSettingDetailExtension.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/GameSettingDetailExtension.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 794,
+      "lines": 30
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/GameSettingDetailView.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/GameSettingDetailView.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 5713,
+      "lines": 193
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/GameSettingListEntry.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/GameSettingListEntry.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 10948,
+      "lines": 369
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/GameSettingListView.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/GameSettingListView.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2411,
+      "lines": 88
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/GameSettingPanel.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/GameSettingPanel.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 7447,
+      "lines": 279
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/GameSettingScreen.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/GameSettingScreen.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3025,
+      "lines": 136
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/GameSettingVisualData.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/GameSettingVisualData.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2830,
+      "lines": 86
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/IGameSettingActionInterface.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/IGameSettingActionInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 274,
+      "lines": 11
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Misc/GameSettingPressAnyKey.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Misc/GameSettingPressAnyKey.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 4068,
+      "lines": 149
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Misc/GameSettingRotator.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Misc/GameSettingRotator.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 407,
+      "lines": 16
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Misc/KeyAlreadyBoundWarning.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Misc/KeyAlreadyBoundWarning.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 419,
+      "lines": 16
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanel.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanel.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 2359,
+      "lines": 90
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanel.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanel.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1261,
+      "lines": 52
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanelSlot.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanelSlot.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 934,
+      "lines": 37
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanelSlot.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Responsive/GameResponsivePanelSlot.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 635,
+      "lines": 32
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Responsive/SGameResponsivePanel.cpp",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Responsive/SGameResponsivePanel.cpp",
+      "language": "cpp",
+      "ownership": "project-plugin",
+      "bytes": 3878,
+      "lines": 164
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Private/Widgets/Responsive/SGameResponsivePanel.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Private/Widgets/Responsive/SGameResponsivePanel.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1749,
+      "lines": 81
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/DataSource/GameSettingDataSource.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/DataSource/GameSettingDataSource.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 946,
+      "lines": 31
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/DataSource/GameSettingDataSourceDynamic.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/DataSource/GameSettingDataSourceDynamic.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 855,
+      "lines": 33
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/EditCondition/WhenCondition.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/EditCondition/WhenCondition.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 772,
+      "lines": 27
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/EditCondition/WhenPlatformHasTrait.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/EditCondition/WhenPlatformHasTrait.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1361,
+      "lines": 37
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/EditCondition/WhenPlayingAsPrimaryPlayer.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/EditCondition/WhenPlayingAsPrimaryPlayer.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 469,
+      "lines": 20
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSetting.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSetting.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 10449,
+      "lines": 257
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingAction.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingAction.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2018,
+      "lines": 70
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingCollection.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingCollection.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2052,
+      "lines": 73
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingFilterState.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingFilterState.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 5646,
+      "lines": 201
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingRegistry.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingRegistry.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2902,
+      "lines": 93
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingRegistryChangeTracker.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingRegistryChangeTracker.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1139,
+      "lines": 47
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingValue.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingValue.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1143,
+      "lines": 42
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingValueDiscrete.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingValueDiscrete.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 934,
+      "lines": 38
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingValueDiscreteDynamic.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingValueDiscreteDynamic.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 7459,
+      "lines": 263
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingValueScalar.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingValueScalar.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1695,
+      "lines": 55
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/GameSettingValueScalarDynamic.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/GameSettingValueScalarDynamic.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3982,
+      "lines": 107
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/GameSettingDetailExtension.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/GameSettingDetailExtension.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1010,
+      "lines": 42
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/GameSettingDetailView.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/GameSettingDetailView.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2390,
+      "lines": 74
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/GameSettingListEntry.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/GameSettingListEntry.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 8555,
+      "lines": 246
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/GameSettingListView.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/GameSettingListView.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1267,
+      "lines": 46
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/GameSettingPanel.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/GameSettingPanel.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 3832,
+      "lines": 117
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/GameSettingScreen.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/GameSettingScreen.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 2568,
+      "lines": 85
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/GameSettingVisualData.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/GameSettingVisualData.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1941,
+      "lines": 70
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/IGameSettingActionInterface.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/IGameSettingActionInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 664,
+      "lines": 32
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/Misc/GameSettingPressAnyKey.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/Misc/GameSettingPressAnyKey.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 1081,
+      "lines": 46
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/Misc/GameSettingRotator.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/Misc/GameSettingRotator.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 725,
+      "lines": 31
+    },
+    {
+      "path": "Plugins/GameSettings/Source/Public/Widgets/Misc/KeyAlreadyBoundWarning.h",
+      "snapshotPath": "files/Plugins/GameSettings/Source/Public/Widgets/Misc/KeyAlreadyBoundWarning.h",
+      "language": "cpp-header",
+      "ownership": "project-plugin",
+      "bytes": 892,
+      "lines": 34
+    },
+    {
+      "path": "Source/AGASS/AGASS.cpp",
+      "snapshotPath": "files/Source/AGASS/AGASS.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 126,
+      "lines": 4
+    },
+    {
+      "path": "Source/AGASS/AGASS.h",
+      "snapshotPath": "files/Source/AGASS/AGASS.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 39,
+      "lines": 3
+    },
+    {
+      "path": "Source/AGASS/Private/AGASSCharacter.cpp",
+      "snapshotPath": "files/Source/AGASS/Private/AGASSCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 17345,
+      "lines": 595
+    },
+    {
+      "path": "Source/AGASS/Private/AGASSGameInstance.cpp",
+      "snapshotPath": "files/Source/AGASS/Private/AGASSGameInstance.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1584,
+      "lines": 56
+    },
+    {
+      "path": "Source/AGASS/Private/AGASSGameModeBase.cpp",
+      "snapshotPath": "files/Source/AGASS/Private/AGASSGameModeBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 22946,
+      "lines": 703
+    },
+    {
+      "path": "Source/AGASS/Private/AGASSGameStateBase.cpp",
+      "snapshotPath": "files/Source/AGASS/Private/AGASSGameStateBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1247,
+      "lines": 29
+    },
+    {
+      "path": "Source/AGASS/Private/AGASSPlayerController.cpp",
+      "snapshotPath": "files/Source/AGASS/Private/AGASSPlayerController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 16971,
+      "lines": 558
+    },
+    {
+      "path": "Source/AGASS/Private/Animation/AGASSCharacterAnimInstance.cpp",
+      "snapshotPath": "files/Source/AGASS/Private/Animation/AGASSCharacterAnimInstance.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1157,
+      "lines": 46
+    },
+    {
+      "path": "Source/AGASS/Private/Settings/AGASSPlayerDeveloperSettings.cpp",
+      "snapshotPath": "files/Source/AGASS/Private/Settings/AGASSPlayerDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 548,
+      "lines": 22
+    },
+    {
+      "path": "Source/AGASS/Public/AGASSCharacter.h",
+      "snapshotPath": "files/Source/AGASS/Public/AGASSCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4549,
+      "lines": 122
+    },
+    {
+      "path": "Source/AGASS/Public/AGASSGameInstance.h",
+      "snapshotPath": "files/Source/AGASS/Public/AGASSGameInstance.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 296,
+      "lines": 14
+    },
+    {
+      "path": "Source/AGASS/Public/AGASSGameModeBase.h",
+      "snapshotPath": "files/Source/AGASS/Public/AGASSGameModeBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2588,
+      "lines": 60
+    },
+    {
+      "path": "Source/AGASS/Public/AGASSGameStateBase.h",
+      "snapshotPath": "files/Source/AGASS/Public/AGASSGameStateBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1616,
+      "lines": 57
+    },
+    {
+      "path": "Source/AGASS/Public/AGASSPlayerController.h",
+      "snapshotPath": "files/Source/AGASS/Public/AGASSPlayerController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4023,
+      "lines": 123
+    },
+    {
+      "path": "Source/AGASS/Public/Animation/AGASSCharacterAnimInstance.h",
+      "snapshotPath": "files/Source/AGASS/Public/Animation/AGASSCharacterAnimInstance.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 891,
+      "lines": 33
+    },
+    {
+      "path": "Source/AGASS/Public/Settings/AGASSPlayerDeveloperSettings.h",
+      "snapshotPath": "files/Source/AGASS/Public/Settings/AGASSPlayerDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 715,
+      "lines": 27
+    }
+  ]
+}

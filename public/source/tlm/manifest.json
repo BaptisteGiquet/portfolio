@@ -1,0 +1,1964 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "tlm",
+  "exportedAt": "2026-06-05T16:56:48.305Z",
+  "sourceRoots": [
+    "src",
+    "addons/the_last_mage_tools",
+    "addons/TLMRegressionTools"
+  ],
+  "entryFile": "src/Gameplay/Run/RunControllerNode.cs",
+  "metrics": {
+    "fileCount": 242,
+    "totalBytes": 1412962,
+    "totalLines": 39060,
+    "languageCounts": {
+      "cpp": 0,
+      "cpp-header": 0,
+      "csharp": 242
+    },
+    "ownershipCounts": {
+      "project-code": 235,
+      "project-plugin": 7,
+      "third-party-plugin": 0
+    }
+  },
+  "files": [
+    {
+      "path": "addons/the_last_mage_tools/docks/BalanceLabDock.cs",
+      "snapshotPath": "files/addons/the_last_mage_tools/docks/BalanceLabDock.cs",
+      "language": "csharp",
+      "ownership": "project-plugin",
+      "bytes": 23058,
+      "lines": 612
+    },
+    {
+      "path": "addons/the_last_mage_tools/docks/GameplayTagEditorDock.cs",
+      "snapshotPath": "files/addons/the_last_mage_tools/docks/GameplayTagEditorDock.cs",
+      "language": "csharp",
+      "ownership": "project-plugin",
+      "bytes": 29679,
+      "lines": 947
+    },
+    {
+      "path": "addons/the_last_mage_tools/docks/GameplayTagSelector.cs",
+      "snapshotPath": "files/addons/the_last_mage_tools/docks/GameplayTagSelector.cs",
+      "language": "csharp",
+      "ownership": "project-plugin",
+      "bytes": 4907,
+      "lines": 179
+    },
+    {
+      "path": "addons/the_last_mage_tools/docks/ItemAuthoringDock.cs",
+      "snapshotPath": "files/addons/the_last_mage_tools/docks/ItemAuthoringDock.cs",
+      "language": "csharp",
+      "ownership": "project-plugin",
+      "bytes": 166223,
+      "lines": 4755
+    },
+    {
+      "path": "addons/the_last_mage_tools/docks/LocalizationDock.cs",
+      "snapshotPath": "files/addons/the_last_mage_tools/docks/LocalizationDock.cs",
+      "language": "csharp",
+      "ownership": "project-plugin",
+      "bytes": 5754,
+      "lines": 180
+    },
+    {
+      "path": "addons/the_last_mage_tools/TheLastMageToolsPlugin.cs",
+      "snapshotPath": "files/addons/the_last_mage_tools/TheLastMageToolsPlugin.cs",
+      "language": "csharp",
+      "ownership": "project-plugin",
+      "bytes": 9689,
+      "lines": 313
+    },
+    {
+      "path": "addons/TLMRegressionTools/TLMRegressionToolsPlugin.cs",
+      "snapshotPath": "files/addons/TLMRegressionTools/TLMRegressionToolsPlugin.cs",
+      "language": "csharp",
+      "ownership": "project-plugin",
+      "bytes": 14775,
+      "lines": 467
+    },
+    {
+      "path": "src/App/GameAppNode.cs",
+      "snapshotPath": "files/src/App/GameAppNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 944,
+      "lines": 32
+    },
+    {
+      "path": "src/App/GameRootNode.cs",
+      "snapshotPath": "files/src/App/GameRootNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 364,
+      "lines": 16
+    },
+    {
+      "path": "src/Data/Definitions/AchievementDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/AchievementDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 395,
+      "lines": 14
+    },
+    {
+      "path": "src/Data/Definitions/ActiveEffectIds.cs",
+      "snapshotPath": "files/src/Data/Definitions/ActiveEffectIds.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1471,
+      "lines": 40
+    },
+    {
+      "path": "src/Data/Definitions/AuthoringDropdownOptions.cs",
+      "snapshotPath": "files/src/Data/Definitions/AuthoringDropdownOptions.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1307,
+      "lines": 37
+    },
+    {
+      "path": "src/Data/Definitions/ContentCatalog.cs",
+      "snapshotPath": "files/src/Data/Definitions/ContentCatalog.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 892,
+      "lines": 24
+    },
+    {
+      "path": "src/Data/Definitions/ContentDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/ContentDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 434,
+      "lines": 15
+    },
+    {
+      "path": "src/Data/Definitions/ContentEnums.cs",
+      "snapshotPath": "files/src/Data/Definitions/ContentEnums.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1192,
+      "lines": 82
+    },
+    {
+      "path": "src/Data/Definitions/DefenseDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/DefenseDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 858,
+      "lines": 32
+    },
+    {
+      "path": "src/Data/Definitions/EffectSpec.cs",
+      "snapshotPath": "files/src/Data/Definitions/EffectSpec.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 523,
+      "lines": 20
+    },
+    {
+      "path": "src/Data/Definitions/EnemyArchetypeDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/EnemyArchetypeDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1000,
+      "lines": 36
+    },
+    {
+      "path": "src/Data/Definitions/FeedbackProfile.cs",
+      "snapshotPath": "files/src/Data/Definitions/FeedbackProfile.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 247,
+      "lines": 12
+    },
+    {
+      "path": "src/Data/Definitions/GameplayTagCatalog.cs",
+      "snapshotPath": "files/src/Data/Definitions/GameplayTagCatalog.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1858,
+      "lines": 62
+    },
+    {
+      "path": "src/Data/Definitions/GameplayTagDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/GameplayTagDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 544,
+      "lines": 18
+    },
+    {
+      "path": "src/Data/Definitions/ItemDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/ItemDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2454,
+      "lines": 77
+    },
+    {
+      "path": "src/Data/Definitions/ItemEffectCompiler.cs",
+      "snapshotPath": "files/src/Data/Definitions/ItemEffectCompiler.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 15630,
+      "lines": 401
+    },
+    {
+      "path": "src/Data/Definitions/ItemEffectSpec.cs",
+      "snapshotPath": "files/src/Data/Definitions/ItemEffectSpec.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 677,
+      "lines": 24
+    },
+    {
+      "path": "src/Data/Definitions/ItemPoolWeightDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/ItemPoolWeightDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 333,
+      "lines": 13
+    },
+    {
+      "path": "src/Data/Definitions/MageDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/MageDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 512,
+      "lines": 20
+    },
+    {
+      "path": "src/Data/Definitions/ModifierSpec.cs",
+      "snapshotPath": "files/src/Data/Definitions/ModifierSpec.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 412,
+      "lines": 18
+    },
+    {
+      "path": "src/Data/Definitions/ProcSpec.cs",
+      "snapshotPath": "files/src/Data/Definitions/ProcSpec.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 413,
+      "lines": 18
+    },
+    {
+      "path": "src/Data/Definitions/SpellDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/SpellDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 413,
+      "lines": 16
+    },
+    {
+      "path": "src/Data/Definitions/WaveDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/WaveDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 739,
+      "lines": 24
+    },
+    {
+      "path": "src/Data/Definitions/WaveSpawnGroupDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/WaveSpawnGroupDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 445,
+      "lines": 18
+    },
+    {
+      "path": "src/Data/Definitions/WaveSpawnLaneDefinition.cs",
+      "snapshotPath": "files/src/Data/Definitions/WaveSpawnLaneDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 408,
+      "lines": 16
+    },
+    {
+      "path": "src/Data/Runtime/ContentRegistry.cs",
+      "snapshotPath": "files/src/Data/Runtime/ContentRegistry.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 14780,
+      "lines": 418
+    },
+    {
+      "path": "src/Data/Runtime/RuntimeDefinitions.cs",
+      "snapshotPath": "files/src/Data/Runtime/RuntimeDefinitions.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4344,
+      "lines": 164
+    },
+    {
+      "path": "src/Data/Tags/GameplayTagCatalogUtility.cs",
+      "snapshotPath": "files/src/Data/Tags/GameplayTagCatalogUtility.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4085,
+      "lines": 124
+    },
+    {
+      "path": "src/Data/Tags/GameplayTagPath.cs",
+      "snapshotPath": "files/src/Data/Tags/GameplayTagPath.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3475,
+      "lines": 130
+    },
+    {
+      "path": "src/Data/Tags/GameplayTagReferenceMigration.cs",
+      "snapshotPath": "files/src/Data/Tags/GameplayTagReferenceMigration.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2544,
+      "lines": 82
+    },
+    {
+      "path": "src/Data/Validation/ContentValidator.cs",
+      "snapshotPath": "files/src/Data/Validation/ContentValidator.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 34979,
+      "lines": 878
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceBotPolicies.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceBotPolicies.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 9165,
+      "lines": 271
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceExperimentDefinition.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceExperimentDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3999,
+      "lines": 126
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceLabCommandLine.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceLabCommandLine.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 6467,
+      "lines": 130
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceLabHeadlessRunnerNode.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceLabHeadlessRunnerNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 5557,
+      "lines": 141
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceLabResults.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceLabResults.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 11735,
+      "lines": 346
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceMonteCarloSimulator.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceMonteCarloSimulator.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 7020,
+      "lines": 206
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceReportWriter.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceReportWriter.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 15871,
+      "lines": 354
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceSimulationRunner.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceSimulationRunner.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 30565,
+      "lines": 793
+    },
+    {
+      "path": "src/Debugging/Balance/BalanceStaticAnalyzer.cs",
+      "snapshotPath": "files/src/Debugging/Balance/BalanceStaticAnalyzer.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4152,
+      "lines": 124
+    },
+    {
+      "path": "src/Debugging/Benchmarks/BenchmarkCameraNode.cs",
+      "snapshotPath": "files/src/Debugging/Benchmarks/BenchmarkCameraNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 302,
+      "lines": 14
+    },
+    {
+      "path": "src/Debugging/Benchmarks/BenchmarkDefensePlacementNode.cs",
+      "snapshotPath": "files/src/Debugging/Benchmarks/BenchmarkDefensePlacementNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 887,
+      "lines": 32
+    },
+    {
+      "path": "src/Debugging/Benchmarks/HordeBenchmarkNode.cs",
+      "snapshotPath": "files/src/Debugging/Benchmarks/HordeBenchmarkNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 6750,
+      "lines": 188
+    },
+    {
+      "path": "src/Debugging/Benchmarks/PlayableTowerProxyNode.cs",
+      "snapshotPath": "files/src/Debugging/Benchmarks/PlayableTowerProxyNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3473,
+      "lines": 97
+    },
+    {
+      "path": "src/Debugging/DebugOverlayNode.cs",
+      "snapshotPath": "files/src/Debugging/DebugOverlayNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 12448,
+      "lines": 253
+    },
+    {
+      "path": "src/Debugging/DebugServicesNode.cs",
+      "snapshotPath": "files/src/Debugging/DebugServicesNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1889,
+      "lines": 71
+    },
+    {
+      "path": "src/Debugging/Regression/RegressionRunnerNode.cs",
+      "snapshotPath": "files/src/Debugging/Regression/RegressionRunnerNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 214082,
+      "lines": 4124
+    },
+    {
+      "path": "src/Debugging/Reports/BalanceReport.cs",
+      "snapshotPath": "files/src/Debugging/Reports/BalanceReport.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 7554,
+      "lines": 179
+    },
+    {
+      "path": "src/Debugging/Reports/GameplayProfilingSystem.cs",
+      "snapshotPath": "files/src/Debugging/Reports/GameplayProfilingSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2308,
+      "lines": 67
+    },
+    {
+      "path": "src/Debugging/Reports/RunReportSystem.cs",
+      "snapshotPath": "files/src/Debugging/Reports/RunReportSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 8092,
+      "lines": 157
+    },
+    {
+      "path": "src/Debugging/Tools/LootSimulationSummary.cs",
+      "snapshotPath": "files/src/Debugging/Tools/LootSimulationSummary.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 914,
+      "lines": 39
+    },
+    {
+      "path": "src/Debugging/Tools/LootSimulator.cs",
+      "snapshotPath": "files/src/Debugging/Tools/LootSimulator.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2948,
+      "lines": 93
+    },
+    {
+      "path": "src/Debugging/Tools/ToolingGatePanelNode.cs",
+      "snapshotPath": "files/src/Debugging/Tools/ToolingGatePanelNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 24893,
+      "lines": 745
+    },
+    {
+      "path": "src/Debugging/Tools/ToolingGateReport.cs",
+      "snapshotPath": "files/src/Debugging/Tools/ToolingGateReport.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 24652,
+      "lines": 564
+    },
+    {
+      "path": "src/Debugging/Tools/WaveAuthoringReport.cs",
+      "snapshotPath": "files/src/Debugging/Tools/WaveAuthoringReport.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1200,
+      "lines": 27
+    },
+    {
+      "path": "src/Foundation/ContentId.cs",
+      "snapshotPath": "files/src/Foundation/ContentId.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 293,
+      "lines": 10
+    },
+    {
+      "path": "src/Foundation/EntityId.cs",
+      "snapshotPath": "files/src/Foundation/EntityId.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 241,
+      "lines": 10
+    },
+    {
+      "path": "src/Foundation/Events/GameEventBus.cs",
+      "snapshotPath": "files/src/Foundation/Events/GameEventBus.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1948,
+      "lines": 74
+    },
+    {
+      "path": "src/Foundation/Events/GameEventCounter.cs",
+      "snapshotPath": "files/src/Foundation/Events/GameEventCounter.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 755,
+      "lines": 28
+    },
+    {
+      "path": "src/Foundation/Events/IGameEvent.cs",
+      "snapshotPath": "files/src/Foundation/Events/IGameEvent.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 74,
+      "lines": 5
+    },
+    {
+      "path": "src/Foundation/Events/RunEvents.cs",
+      "snapshotPath": "files/src/Foundation/Events/RunEvents.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 5099,
+      "lines": 111
+    },
+    {
+      "path": "src/Foundation/Events/SubscriptionToken.cs",
+      "snapshotPath": "files/src/Foundation/Events/SubscriptionToken.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 154,
+      "lines": 6
+    },
+    {
+      "path": "src/Foundation/GameError.cs",
+      "snapshotPath": "files/src/Foundation/GameError.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 247,
+      "lines": 8
+    },
+    {
+      "path": "src/Foundation/GameplayTagSet.cs",
+      "snapshotPath": "files/src/Foundation/GameplayTagSet.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1471,
+      "lines": 52
+    },
+    {
+      "path": "src/Foundation/ItemPoolIds.cs",
+      "snapshotPath": "files/src/Foundation/ItemPoolIds.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 220,
+      "lines": 11
+    },
+    {
+      "path": "src/Foundation/Pooling/IPoolable.cs",
+      "snapshotPath": "files/src/Foundation/Pooling/IPoolable.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 122,
+      "lines": 8
+    },
+    {
+      "path": "src/Foundation/Pooling/ObjectPool.cs",
+      "snapshotPath": "files/src/Foundation/Pooling/ObjectPool.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1105,
+      "lines": 50
+    },
+    {
+      "path": "src/Foundation/Pooling/PoolHub.cs",
+      "snapshotPath": "files/src/Foundation/Pooling/PoolHub.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 591,
+      "lines": 26
+    },
+    {
+      "path": "src/Foundation/Pooling/ScenePool.cs",
+      "snapshotPath": "files/src/Foundation/Pooling/ScenePool.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1295,
+      "lines": 60
+    },
+    {
+      "path": "src/Foundation/Random/RandomService.cs",
+      "snapshotPath": "files/src/Foundation/Random/RandomService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 935,
+      "lines": 40
+    },
+    {
+      "path": "src/Foundation/Random/RandomStreamId.cs",
+      "snapshotPath": "files/src/Foundation/Random/RandomStreamId.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 132,
+      "lines": 10
+    },
+    {
+      "path": "src/Foundation/RunId.cs",
+      "snapshotPath": "files/src/Foundation/RunId.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 398,
+      "lines": 15
+    },
+    {
+      "path": "src/Foundation/RunSummaryData.cs",
+      "snapshotPath": "files/src/Foundation/RunSummaryData.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 796,
+      "lines": 30
+    },
+    {
+      "path": "src/Foundation/RuntimePathResolver.cs",
+      "snapshotPath": "files/src/Foundation/RuntimePathResolver.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1889,
+      "lines": 58
+    },
+    {
+      "path": "src/Foundation/StatId.cs",
+      "snapshotPath": "files/src/Foundation/StatId.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 287,
+      "lines": 10
+    },
+    {
+      "path": "src/Foundation/TagId.cs",
+      "snapshotPath": "files/src/Foundation/TagId.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 287,
+      "lines": 10
+    },
+    {
+      "path": "src/Foundation/Validation/ValidationIssue.cs",
+      "snapshotPath": "files/src/Foundation/Validation/ValidationIssue.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 189,
+      "lines": 7
+    },
+    {
+      "path": "src/Foundation/Validation/ValidationResult.cs",
+      "snapshotPath": "files/src/Foundation/Validation/ValidationResult.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1170,
+      "lines": 42
+    },
+    {
+      "path": "src/Foundation/Validation/ValidationSeverity.cs",
+      "snapshotPath": "files/src/Foundation/Validation/ValidationSeverity.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 114,
+      "lines": 8
+    },
+    {
+      "path": "src/Gameplay/Achievements/AchievementSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Achievements/AchievementSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3603,
+      "lines": 114
+    },
+    {
+      "path": "src/Gameplay/AoE/AoEDebugNode.cs",
+      "snapshotPath": "files/src/Gameplay/AoE/AoEDebugNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4880,
+      "lines": 155
+    },
+    {
+      "path": "src/Gameplay/AoE/AoEState.cs",
+      "snapshotPath": "files/src/Gameplay/AoE/AoEState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1646,
+      "lines": 69
+    },
+    {
+      "path": "src/Gameplay/AoE/AoESystem.cs",
+      "snapshotPath": "files/src/Gameplay/AoE/AoESystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 16259,
+      "lines": 471
+    },
+    {
+      "path": "src/Gameplay/Combat/CombatSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/CombatSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 8500,
+      "lines": 225
+    },
+    {
+      "path": "src/Gameplay/Combat/CombatTargetKind.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/CombatTargetKind.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 118,
+      "lines": 9
+    },
+    {
+      "path": "src/Gameplay/Combat/DamagePreventionMode.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DamagePreventionMode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 115,
+      "lines": 7
+    },
+    {
+      "path": "src/Gameplay/Combat/DamagePreventionResult.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DamagePreventionResult.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 232,
+      "lines": 9
+    },
+    {
+      "path": "src/Gameplay/Combat/DamagePreventionState.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DamagePreventionState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1542,
+      "lines": 59
+    },
+    {
+      "path": "src/Gameplay/Combat/DamagePreventionSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DamagePreventionSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 5403,
+      "lines": 174
+    },
+    {
+      "path": "src/Gameplay/Combat/DamageRequest.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DamageRequest.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 373,
+      "lines": 14
+    },
+    {
+      "path": "src/Gameplay/Combat/DamageResult.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DamageResult.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 218,
+      "lines": 9
+    },
+    {
+      "path": "src/Gameplay/Combat/DamageType.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DamageType.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 113,
+      "lines": 9
+    },
+    {
+      "path": "src/Gameplay/Combat/DeathSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/DeathSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1167,
+      "lines": 37
+    },
+    {
+      "path": "src/Gameplay/Combat/HealthState.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/HealthState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1472,
+      "lines": 59
+    },
+    {
+      "path": "src/Gameplay/Combat/HitContext.cs",
+      "snapshotPath": "files/src/Gameplay/Combat/HitContext.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 185,
+      "lines": 6
+    },
+    {
+      "path": "src/Gameplay/Commands/BeginCastFlowCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/BeginCastFlowCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1772,
+      "lines": 62
+    },
+    {
+      "path": "src/Gameplay/Commands/CastSpellCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/CastSpellCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1829,
+      "lines": 61
+    },
+    {
+      "path": "src/Gameplay/Commands/ChooseMarketOfferCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/ChooseMarketOfferCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1333,
+      "lines": 49
+    },
+    {
+      "path": "src/Gameplay/Commands/CommandDispatcher.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/CommandDispatcher.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 873,
+      "lines": 36
+    },
+    {
+      "path": "src/Gameplay/Commands/ICommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/ICommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 204,
+      "lines": 10
+    },
+    {
+      "path": "src/Gameplay/Commands/PhaseCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/PhaseCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 577,
+      "lines": 22
+    },
+    {
+      "path": "src/Gameplay/Commands/PlaceDefenseCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/PlaceDefenseCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1943,
+      "lines": 60
+    },
+    {
+      "path": "src/Gameplay/Commands/ReleaseCastFlowCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/ReleaseCastFlowCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 857,
+      "lines": 35
+    },
+    {
+      "path": "src/Gameplay/Commands/RepairDefenseCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/RepairDefenseCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2479,
+      "lines": 73
+    },
+    {
+      "path": "src/Gameplay/Commands/RerollOffersCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/RerollOffersCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 764,
+      "lines": 30
+    },
+    {
+      "path": "src/Gameplay/Commands/SelectMageCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/SelectMageCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2023,
+      "lines": 71
+    },
+    {
+      "path": "src/Gameplay/Commands/StartNextDayCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/StartNextDayCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 438,
+      "lines": 17
+    },
+    {
+      "path": "src/Gameplay/Commands/UseActivatableItemCommand.cs",
+      "snapshotPath": "files/src/Gameplay/Commands/UseActivatableItemCommand.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 980,
+      "lines": 36
+    },
+    {
+      "path": "src/Gameplay/Defenses/DefenseActorNode.cs",
+      "snapshotPath": "files/src/Gameplay/Defenses/DefenseActorNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2828,
+      "lines": 85
+    },
+    {
+      "path": "src/Gameplay/Defenses/DefensePlacementValidationResult.cs",
+      "snapshotPath": "files/src/Gameplay/Defenses/DefensePlacementValidationResult.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 323,
+      "lines": 8
+    },
+    {
+      "path": "src/Gameplay/Defenses/DefensePlacementValidator.cs",
+      "snapshotPath": "files/src/Gameplay/Defenses/DefensePlacementValidator.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1935,
+      "lines": 50
+    },
+    {
+      "path": "src/Gameplay/Defenses/DefenseState.cs",
+      "snapshotPath": "files/src/Gameplay/Defenses/DefenseState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1431,
+      "lines": 50
+    },
+    {
+      "path": "src/Gameplay/Defenses/DefenseSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Defenses/DefenseSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 13943,
+      "lines": 407
+    },
+    {
+      "path": "src/Gameplay/Enemies/EnemyActorNode.cs",
+      "snapshotPath": "files/src/Gameplay/Enemies/EnemyActorNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 15317,
+      "lines": 498
+    },
+    {
+      "path": "src/Gameplay/Enemies/EnemySpatialRegistry.cs",
+      "snapshotPath": "files/src/Gameplay/Enemies/EnemySpatialRegistry.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 10326,
+      "lines": 356
+    },
+    {
+      "path": "src/Gameplay/Enemies/EnemyState.cs",
+      "snapshotPath": "files/src/Gameplay/Enemies/EnemyState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2022,
+      "lines": 71
+    },
+    {
+      "path": "src/Gameplay/Enemies/EnemySystem.cs",
+      "snapshotPath": "files/src/Gameplay/Enemies/EnemySystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 24274,
+      "lines": 680
+    },
+    {
+      "path": "src/Gameplay/Items/AbyssalRingBehavior.cs",
+      "snapshotPath": "files/src/Gameplay/Items/AbyssalRingBehavior.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1969,
+      "lines": 55
+    },
+    {
+      "path": "src/Gameplay/Items/ActivatableItemState.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ActivatableItemState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 975,
+      "lines": 40
+    },
+    {
+      "path": "src/Gameplay/Items/ActivatableItemSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ActivatableItemSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 14145,
+      "lines": 409
+    },
+    {
+      "path": "src/Gameplay/Items/BuildState.cs",
+      "snapshotPath": "files/src/Gameplay/Items/BuildState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4025,
+      "lines": 156
+    },
+    {
+      "path": "src/Gameplay/Items/ICastFlowModifier.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ICastFlowModifier.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 275,
+      "lines": 10
+    },
+    {
+      "path": "src/Gameplay/Items/ItemBehaviorResolver.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ItemBehaviorResolver.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1767,
+      "lines": 65
+    },
+    {
+      "path": "src/Gameplay/Items/ItemKnowledgeService.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ItemKnowledgeService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 948,
+      "lines": 34
+    },
+    {
+      "path": "src/Gameplay/Items/ItemStackState.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ItemStackState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 393,
+      "lines": 21
+    },
+    {
+      "path": "src/Gameplay/Items/KeepItInBehavior.cs",
+      "snapshotPath": "files/src/Gameplay/Items/KeepItInBehavior.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1304,
+      "lines": 35
+    },
+    {
+      "path": "src/Gameplay/Items/ModifierSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ModifierSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2056,
+      "lines": 67
+    },
+    {
+      "path": "src/Gameplay/Items/ProcSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Items/ProcSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 19484,
+      "lines": 588
+    },
+    {
+      "path": "src/Gameplay/Items/TemporaryModifierState.cs",
+      "snapshotPath": "files/src/Gameplay/Items/TemporaryModifierState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1054,
+      "lines": 46
+    },
+    {
+      "path": "src/Gameplay/Loot/MarketOffer.cs",
+      "snapshotPath": "files/src/Gameplay/Loot/MarketOffer.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 121,
+      "lines": 5
+    },
+    {
+      "path": "src/Gameplay/Loot/MarketState.cs",
+      "snapshotPath": "files/src/Gameplay/Loot/MarketState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1532,
+      "lines": 67
+    },
+    {
+      "path": "src/Gameplay/Loot/MarketSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Loot/MarketSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4327,
+      "lines": 145
+    },
+    {
+      "path": "src/Gameplay/Loot/OfferGenerator.cs",
+      "snapshotPath": "files/src/Gameplay/Loot/OfferGenerator.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3575,
+      "lines": 123
+    },
+    {
+      "path": "src/Gameplay/Navigation/TowerEntranceState.cs",
+      "snapshotPath": "files/src/Gameplay/Navigation/TowerEntranceState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 104,
+      "lines": 7
+    },
+    {
+      "path": "src/Gameplay/Navigation/TowerNavigationAdapter.cs",
+      "snapshotPath": "files/src/Gameplay/Navigation/TowerNavigationAdapter.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 10566,
+      "lines": 311
+    },
+    {
+      "path": "src/Gameplay/Navigation/TowerRouteState.cs",
+      "snapshotPath": "files/src/Gameplay/Navigation/TowerRouteState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 107,
+      "lines": 7
+    },
+    {
+      "path": "src/Gameplay/Navigation/TowerRouteStep.cs",
+      "snapshotPath": "files/src/Gameplay/Navigation/TowerRouteStep.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 114,
+      "lines": 8
+    },
+    {
+      "path": "src/Gameplay/Player/PlayerControllerNode.cs",
+      "snapshotPath": "files/src/Gameplay/Player/PlayerControllerNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 11403,
+      "lines": 337
+    },
+    {
+      "path": "src/Gameplay/Player/PlayerInputReader.cs",
+      "snapshotPath": "files/src/Gameplay/Player/PlayerInputReader.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1650,
+      "lines": 70
+    },
+    {
+      "path": "src/Gameplay/Player/PlayerMotor.cs",
+      "snapshotPath": "files/src/Gameplay/Player/PlayerMotor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2767,
+      "lines": 96
+    },
+    {
+      "path": "src/Gameplay/Player/PlayerRuntimeState.cs",
+      "snapshotPath": "files/src/Gameplay/Player/PlayerRuntimeState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 941,
+      "lines": 34
+    },
+    {
+      "path": "src/Gameplay/Player/SpellPlacementPreviewNode.cs",
+      "snapshotPath": "files/src/Gameplay/Player/SpellPlacementPreviewNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3447,
+      "lines": 114
+    },
+    {
+      "path": "src/Gameplay/Projectiles/ProjectileState.cs",
+      "snapshotPath": "files/src/Gameplay/Projectiles/ProjectileState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1177,
+      "lines": 39
+    },
+    {
+      "path": "src/Gameplay/Projectiles/ProjectileSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Projectiles/ProjectileSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 16906,
+      "lines": 508
+    },
+    {
+      "path": "src/Gameplay/Projectiles/ProjectileViewNode.cs",
+      "snapshotPath": "files/src/Gameplay/Projectiles/ProjectileViewNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 499,
+      "lines": 26
+    },
+    {
+      "path": "src/Gameplay/Run/IGameSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Run/IGameSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 196,
+      "lines": 12
+    },
+    {
+      "path": "src/Gameplay/Run/PhasePermissions.cs",
+      "snapshotPath": "files/src/Gameplay/Run/PhasePermissions.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1315,
+      "lines": 27
+    },
+    {
+      "path": "src/Gameplay/Run/RunCheckpointService.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunCheckpointService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 6904,
+      "lines": 167
+    },
+    {
+      "path": "src/Gameplay/Run/RunClock.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunClock.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 862,
+      "lines": 32
+    },
+    {
+      "path": "src/Gameplay/Run/RunContext.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunContext.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1784,
+      "lines": 66
+    },
+    {
+      "path": "src/Gameplay/Run/RunControllerNode.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunControllerNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 11109,
+      "lines": 316
+    },
+    {
+      "path": "src/Gameplay/Run/RunDebugMetrics.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunDebugMetrics.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3363,
+      "lines": 118
+    },
+    {
+      "path": "src/Gameplay/Run/RunPhase.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunPhase.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 185,
+      "lines": 13
+    },
+    {
+      "path": "src/Gameplay/Run/RunPhaseStateMachine.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunPhaseStateMachine.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3762,
+      "lines": 137
+    },
+    {
+      "path": "src/Gameplay/Run/RunRewardSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunRewardSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 7516,
+      "lines": 214
+    },
+    {
+      "path": "src/Gameplay/Run/RunState.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 5178,
+      "lines": 165
+    },
+    {
+      "path": "src/Gameplay/Run/RunTelemetryState.cs",
+      "snapshotPath": "files/src/Gameplay/Run/RunTelemetryState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3018,
+      "lines": 98
+    },
+    {
+      "path": "src/Gameplay/Run/TemporaryWeaponModeState.cs",
+      "snapshotPath": "files/src/Gameplay/Run/TemporaryWeaponModeState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1097,
+      "lines": 37
+    },
+    {
+      "path": "src/Gameplay/Spells/BlizzardAoEEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/BlizzardAoEEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2016,
+      "lines": 51
+    },
+    {
+      "path": "src/Gameplay/Spells/CastFlowMode.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/CastFlowMode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 134,
+      "lines": 8
+    },
+    {
+      "path": "src/Gameplay/Spells/CastFlowPlan.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/CastFlowPlan.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 791,
+      "lines": 23
+    },
+    {
+      "path": "src/Gameplay/Spells/CastFlowReleaseKind.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/CastFlowReleaseKind.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 119,
+      "lines": 7
+    },
+    {
+      "path": "src/Gameplay/Spells/CastFlowState.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/CastFlowState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2004,
+      "lines": 70
+    },
+    {
+      "path": "src/Gameplay/Spells/EffectResolver.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/EffectResolver.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 794,
+      "lines": 28
+    },
+    {
+      "path": "src/Gameplay/Spells/FirewallHazardEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/FirewallHazardEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2131,
+      "lines": 59
+    },
+    {
+      "path": "src/Gameplay/Spells/FrostProjectileEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/FrostProjectileEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2675,
+      "lines": 58
+    },
+    {
+      "path": "src/Gameplay/Spells/HitscanBeamEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/HitscanBeamEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 7744,
+      "lines": 177
+    },
+    {
+      "path": "src/Gameplay/Spells/IEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/IEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 223,
+      "lines": 10
+    },
+    {
+      "path": "src/Gameplay/Spells/ProjectileSpawnPattern.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/ProjectileSpawnPattern.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2414,
+      "lines": 77
+    },
+    {
+      "path": "src/Gameplay/Spells/SpawnProjectileEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpawnProjectileEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2674,
+      "lines": 58
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellbookState.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellbookState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1648,
+      "lines": 71
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellExecutionContext.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellExecutionContext.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 435,
+      "lines": 16
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellOrbitState.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellOrbitState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4927,
+      "lines": 137
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellPlacement.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellPlacement.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 8046,
+      "lines": 217
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellPlacementPreview.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellPlacementPreview.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 270,
+      "lines": 12
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellPlacementShape.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellPlacementShape.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 105,
+      "lines": 8
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellRadiusDebug.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellRadiusDebug.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2031,
+      "lines": 54
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellSlotState.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellSlotState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1133,
+      "lines": 47
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellStatResolver.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellStatResolver.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1316,
+      "lines": 40
+    },
+    {
+      "path": "src/Gameplay/Spells/SpellSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SpellSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 15952,
+      "lines": 474
+    },
+    {
+      "path": "src/Gameplay/Spells/SummonEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/SummonEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2747,
+      "lines": 73
+    },
+    {
+      "path": "src/Gameplay/Spells/TornadoVortexEffectExecutor.cs",
+      "snapshotPath": "files/src/Gameplay/Spells/TornadoVortexEffectExecutor.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2448,
+      "lines": 57
+    },
+    {
+      "path": "src/Gameplay/Stats/Modifier.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/Modifier.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 246,
+      "lines": 11
+    },
+    {
+      "path": "src/Gameplay/Stats/ModifierOp.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/ModifierOp.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 161,
+      "lines": 11
+    },
+    {
+      "path": "src/Gameplay/Stats/PlayerAttributeResolver.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/PlayerAttributeResolver.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 8642,
+      "lines": 223
+    },
+    {
+      "path": "src/Gameplay/Stats/StatBlock.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/StatBlock.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 381,
+      "lines": 18
+    },
+    {
+      "path": "src/Gameplay/Stats/StatBreakdown.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/StatBreakdown.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 215,
+      "lines": 9
+    },
+    {
+      "path": "src/Gameplay/Stats/StatDefinition.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/StatDefinition.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 234,
+      "lines": 9
+    },
+    {
+      "path": "src/Gameplay/Stats/StatResolver.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/StatResolver.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1301,
+      "lines": 37
+    },
+    {
+      "path": "src/Gameplay/Stats/TargetFilter.cs",
+      "snapshotPath": "files/src/Gameplay/Stats/TargetFilter.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 344,
+      "lines": 13
+    },
+    {
+      "path": "src/Gameplay/StatusEffects/StatusEffectRule.cs",
+      "snapshotPath": "files/src/Gameplay/StatusEffects/StatusEffectRule.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 317,
+      "lines": 12
+    },
+    {
+      "path": "src/Gameplay/StatusEffects/StatusEffectRules.cs",
+      "snapshotPath": "files/src/Gameplay/StatusEffects/StatusEffectRules.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3016,
+      "lines": 130
+    },
+    {
+      "path": "src/Gameplay/StatusEffects/StatusEffectState.cs",
+      "snapshotPath": "files/src/Gameplay/StatusEffects/StatusEffectState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 596,
+      "lines": 24
+    },
+    {
+      "path": "src/Gameplay/StatusEffects/StatusEffectSystem.cs",
+      "snapshotPath": "files/src/Gameplay/StatusEffects/StatusEffectSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 8358,
+      "lines": 250
+    },
+    {
+      "path": "src/Gameplay/Summons/SummonActorNode.cs",
+      "snapshotPath": "files/src/Gameplay/Summons/SummonActorNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2350,
+      "lines": 96
+    },
+    {
+      "path": "src/Gameplay/Summons/SummonState.cs",
+      "snapshotPath": "files/src/Gameplay/Summons/SummonState.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 766,
+      "lines": 33
+    },
+    {
+      "path": "src/Gameplay/Summons/SummonSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Summons/SummonSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 10154,
+      "lines": 339
+    },
+    {
+      "path": "src/Gameplay/Waves/WaveDirectorSystem.cs",
+      "snapshotPath": "files/src/Gameplay/Waves/WaveDirectorSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 17614,
+      "lines": 571
+    },
+    {
+      "path": "src/Input/InputActions.cs",
+      "snapshotPath": "files/src/Input/InputActions.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1609,
+      "lines": 46
+    },
+    {
+      "path": "src/Input/InputBindingService.cs",
+      "snapshotPath": "files/src/Input/InputBindingService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 13956,
+      "lines": 380
+    },
+    {
+      "path": "src/Input/InputDeviceKind.cs",
+      "snapshotPath": "files/src/Input/InputDeviceKind.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 99,
+      "lines": 7
+    },
+    {
+      "path": "src/Input/InputPromptService.cs",
+      "snapshotPath": "files/src/Input/InputPromptService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 5712,
+      "lines": 190
+    },
+    {
+      "path": "src/Localization/EnglishLocalizationSource.cs",
+      "snapshotPath": "files/src/Localization/EnglishLocalizationSource.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 28084,
+      "lines": 347
+    },
+    {
+      "path": "src/Localization/LocalizationKeys.cs",
+      "snapshotPath": "files/src/Localization/LocalizationKeys.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 973,
+      "lines": 34
+    },
+    {
+      "path": "src/Localization/LocalizationService.cs",
+      "snapshotPath": "files/src/Localization/LocalizationService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4138,
+      "lines": 128
+    },
+    {
+      "path": "src/Localization/LocalizationSourceEntry.cs",
+      "snapshotPath": "files/src/Localization/LocalizationSourceEntry.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 158,
+      "lines": 7
+    },
+    {
+      "path": "src/Localization/LocalizationSpreadsheet.cs",
+      "snapshotPath": "files/src/Localization/LocalizationSpreadsheet.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 14072,
+      "lines": 448
+    },
+    {
+      "path": "src/Localization/LocalizationSpreadsheetRow.cs",
+      "snapshotPath": "files/src/Localization/LocalizationSpreadsheetRow.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 411,
+      "lines": 14
+    },
+    {
+      "path": "src/Localization/LocalizationValidator.cs",
+      "snapshotPath": "files/src/Localization/LocalizationValidator.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 6539,
+      "lines": 171
+    },
+    {
+      "path": "src/Localization/PlaceholderUtility.cs",
+      "snapshotPath": "files/src/Localization/PlaceholderUtility.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 509,
+      "lines": 18
+    },
+    {
+      "path": "src/Presentation/Audio/AudioPoolNode.cs",
+      "snapshotPath": "files/src/Presentation/Audio/AudioPoolNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 105,
+      "lines": 7
+    },
+    {
+      "path": "src/Presentation/Feedback/BeamDebugNode.cs",
+      "snapshotPath": "files/src/Presentation/Feedback/BeamDebugNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1487,
+      "lines": 51
+    },
+    {
+      "path": "src/Presentation/Feedback/BeamDebugSystem.cs",
+      "snapshotPath": "files/src/Presentation/Feedback/BeamDebugSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 1128,
+      "lines": 54
+    },
+    {
+      "path": "src/Presentation/Feedback/FeedbackAudioRules.cs",
+      "snapshotPath": "files/src/Presentation/Feedback/FeedbackAudioRules.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 941,
+      "lines": 34
+    },
+    {
+      "path": "src/Presentation/Feedback/FeedbackBudget.cs",
+      "snapshotPath": "files/src/Presentation/Feedback/FeedbackBudget.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 809,
+      "lines": 29
+    },
+    {
+      "path": "src/Presentation/Feedback/FeedbackRequest.cs",
+      "snapshotPath": "files/src/Presentation/Feedback/FeedbackRequest.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 202,
+      "lines": 6
+    },
+    {
+      "path": "src/Presentation/Feedback/FeedbackSystem.cs",
+      "snapshotPath": "files/src/Presentation/Feedback/FeedbackSystem.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 7689,
+      "lines": 215
+    },
+    {
+      "path": "src/Presentation/Vfx/VfxPoolNode.cs",
+      "snapshotPath": "files/src/Presentation/Vfx/VfxPoolNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 101,
+      "lines": 7
+    },
+    {
+      "path": "src/Save/InputBindingSaveDto.cs",
+      "snapshotPath": "files/src/Save/InputBindingSaveDto.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 398,
+      "lines": 16
+    },
+    {
+      "path": "src/Save/ProfileDefaultsService.cs",
+      "snapshotPath": "files/src/Save/ProfileDefaultsService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 3929,
+      "lines": 111
+    },
+    {
+      "path": "src/Save/ProfileSaveDto.cs",
+      "snapshotPath": "files/src/Save/ProfileSaveDto.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4734,
+      "lines": 177
+    },
+    {
+      "path": "src/Save/SaveServiceNode.cs",
+      "snapshotPath": "files/src/Save/SaveServiceNode.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 7761,
+      "lines": 231
+    },
+    {
+      "path": "src/Save/SettingsApplicationService.cs",
+      "snapshotPath": "files/src/Save/SettingsApplicationService.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 2187,
+      "lines": 66
+    },
+    {
+      "path": "src/Save/SettingsSaveDto.cs",
+      "snapshotPath": "files/src/Save/SettingsSaveDto.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 785,
+      "lines": 30
+    },
+    {
+      "path": "src/UI/AchievementPanel.cs",
+      "snapshotPath": "files/src/UI/AchievementPanel.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 12448,
+      "lines": 371
+    },
+    {
+      "path": "src/UI/BuildInspectorPanel.cs",
+      "snapshotPath": "files/src/UI/BuildInspectorPanel.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4126,
+      "lines": 137
+    },
+    {
+      "path": "src/UI/FrontEndPanel.cs",
+      "snapshotPath": "files/src/UI/FrontEndPanel.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 18557,
+      "lines": 588
+    },
+    {
+      "path": "src/UI/FrontEndViewModels.cs",
+      "snapshotPath": "files/src/UI/FrontEndViewModels.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4925,
+      "lines": 129
+    },
+    {
+      "path": "src/UI/HudView.cs",
+      "snapshotPath": "files/src/UI/HudView.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 11941,
+      "lines": 353
+    },
+    {
+      "path": "src/UI/MarketPanel.cs",
+      "snapshotPath": "files/src/UI/MarketPanel.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 7955,
+      "lines": 238
+    },
+    {
+      "path": "src/UI/OptionsMenuPanel.cs",
+      "snapshotPath": "files/src/UI/OptionsMenuPanel.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 26491,
+      "lines": 756
+    },
+    {
+      "path": "src/UI/PauseSettingsPanel.cs",
+      "snapshotPath": "files/src/UI/PauseSettingsPanel.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 11746,
+      "lines": 375
+    },
+    {
+      "path": "src/UI/RunUiLocator.cs",
+      "snapshotPath": "files/src/UI/RunUiLocator.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 289,
+      "lines": 12
+    },
+    {
+      "path": "src/UI/RunViewModels.cs",
+      "snapshotPath": "files/src/UI/RunViewModels.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 14488,
+      "lines": 363
+    },
+    {
+      "path": "src/UI/UiStyle.cs",
+      "snapshotPath": "files/src/UI/UiStyle.cs",
+      "language": "csharp",
+      "ownership": "project-code",
+      "bytes": 4299,
+      "lines": 114
+    }
+  ]
+}

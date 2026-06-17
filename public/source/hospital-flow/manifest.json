@@ -1,0 +1,4987 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "hospital-flow",
+  "exportedAt": "2026-06-13T15:57:49.664Z",
+  "sourceRoots": [
+    "Source",
+    "Plugins"
+  ],
+  "entryFile": "Source/LOD/Public/Characters/Player/EMRPlayerController.h",
+  "metrics": {
+    "fileCount": 620,
+    "totalBytes": 4247997,
+    "totalLines": 126510,
+    "languageCounts": {
+      "cpp": 293,
+      "cpp-header": 327,
+      "csharp": 0
+    },
+    "ownershipCounts": {
+      "project-code": 487,
+      "project-plugin": 0,
+      "third-party-plugin": 133
+    }
+  },
+  "files": [
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedExternalUILibrary.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedExternalUILibrary.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 3425,
+      "lines": 63
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsGameInstance.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsGameInstance.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 8292,
+      "lines": 162
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsInterface.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsInterface.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2613,
+      "lines": 56
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsLibrary.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsLibrary.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2768,
+      "lines": 56
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedGameSession.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedGameSession.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1940,
+      "lines": 71
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedIdentityLibrary.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedIdentityLibrary.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 4449,
+      "lines": 81
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedSessions.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedSessions.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 209,
+      "lines": 11
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedSessionsLibrary.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedSessionsLibrary.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 13157,
+      "lines": 217
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedVoiceLibrary.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedVoiceLibrary.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 5640,
+      "lines": 99
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AutoLoginUserCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AutoLoginUserCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1985,
+      "lines": 55
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/BlueprintDataDefinitions.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/BlueprintDataDefinitions.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 11792,
+      "lines": 435
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/CancelFindSessionsCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/CancelFindSessionsCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1680,
+      "lines": 46
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/CreateSessionCallbackProxyAdvanced.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/CreateSessionCallbackProxyAdvanced.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 4829,
+      "lines": 107
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/EndSessionCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/EndSessionCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1871,
+      "lines": 49
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/FindFriendSessionCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/FindFriendSessionCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2011,
+      "lines": 51
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/FindSessionsCallbackProxyAdvanced.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/FindSessionsCallbackProxyAdvanced.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 4366,
+      "lines": 109
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetFriendsCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetFriendsCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1976,
+      "lines": 49
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetRecentPlayersCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetRecentPlayersCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2047,
+      "lines": 49
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetUserPrivilegeCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetUserPrivilegeCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1779,
+      "lines": 45
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/LoginUserCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/LoginUserCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1912,
+      "lines": 55
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/LogoutUserCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/LogoutUserCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1672,
+      "lines": 47
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/OnlineSubSystemHeader.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/OnlineSubSystemHeader.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 803,
+      "lines": 27
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/SendFriendInviteCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/SendFriendInviteCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1911,
+      "lines": 49
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/StartSessionCallbackProxyAdvanced.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/StartSessionCallbackProxyAdvanced.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1544,
+      "lines": 46
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/UpdateSessionCallbackProxyAdvanced.h",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/UpdateSessionCallbackProxyAdvanced.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2844,
+      "lines": 75
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedExternalUILibrary.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedExternalUILibrary.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 7031,
+      "lines": 209
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsGameInstance.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsGameInstance.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 15237,
+      "lines": 407
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsInterface.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsInterface.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 266,
+      "lines": 9
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsLibrary.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsLibrary.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 9394,
+      "lines": 284
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedIdentityLibrary.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedIdentityLibrary.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 9066,
+      "lines": 271
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedSessions.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedSessions.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 221,
+      "lines": 12
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedSessionsLibrary.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedSessionsLibrary.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 17743,
+      "lines": 563
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedVoiceLibrary.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedVoiceLibrary.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 10516,
+      "lines": 359
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AutoLoginUserCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AutoLoginUserCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2577,
+      "lines": 91
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/CancelFindSessionsCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/CancelFindSessionsCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2307,
+      "lines": 70
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/CreateSessionCallbackProxyAdvanced.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/CreateSessionCallbackProxyAdvanced.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 7095,
+      "lines": 182
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/EndSessionCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/EndSessionCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2427,
+      "lines": 78
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/FindFriendSessionCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/FindFriendSessionCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 4756,
+      "lines": 138
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/FindSessionsCallbackProxyAdvanced.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/FindSessionsCallbackProxyAdvanced.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 14952,
+      "lines": 451
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetFriendsCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetFriendsCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 4229,
+      "lines": 114
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetRecentPlayersCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetRecentPlayersCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 3473,
+      "lines": 104
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetUserPrivilegeCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetUserPrivilegeCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 1768,
+      "lines": 48
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/LoginUserCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/LoginUserCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 3094,
+      "lines": 111
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/LogoutUserCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/LogoutUserCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2418,
+      "lines": 94
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/SendFriendInviteCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/SendFriendInviteCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2751,
+      "lines": 82
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/StartSessionCallbackProxyAdvanced.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/StartSessionCallbackProxyAdvanced.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 1930,
+      "lines": 58
+    },
+    {
+      "path": "Plugins/AdvancedSessions/Source/AdvancedSessions/Private/UpdateSessionCallbackProxyAdvanced.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/UpdateSessionCallbackProxyAdvanced.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 5126,
+      "lines": 135
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamFriendsLibrary.h",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamFriendsLibrary.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 12817,
+      "lines": 389
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamSessions.h",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamSessions.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 240,
+      "lines": 12
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamWorkshopLibrary.h",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamWorkshopLibrary.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 16256,
+      "lines": 351
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamNotificationsSubsystem.h",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamNotificationsSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2800,
+      "lines": 101
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamRequestGroupOfficersCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamRequestGroupOfficersCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 3233,
+      "lines": 100
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamWSRequestUGCDetailsCallbackProxy.h",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamWSRequestUGCDetailsCallbackProxy.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2871,
+      "lines": 87
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamFriendsLibrary.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamFriendsLibrary.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 15082,
+      "lines": 454
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamSessions.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamSessions.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 246,
+      "lines": 12
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamWorkshopLibrary.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamWorkshopLibrary.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2013,
+      "lines": 69
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/SteamRequestGroupOfficersCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/SteamRequestGroupOfficersCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 3625,
+      "lines": 121
+    },
+    {
+      "path": "Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/SteamWSRequestUGCDetailsCallbackProxy.cpp",
+      "snapshotPath": "files/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/SteamWSRequestUGCDetailsCallbackProxy.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 3156,
+      "lines": 101
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Private/GameplayMessageNodesModule.cpp",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Private/GameplayMessageNodesModule.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 153,
+      "lines": 5
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Private/K2Node_AsyncAction_ListenForGameplayMessages.cpp",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Private/K2Node_AsyncAction_ListenForGameplayMessages.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 9898,
+      "lines": 229
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Public/K2Node_AsyncAction_ListenForGameplayMessages.h",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Public/K2Node_AsyncAction_ListenForGameplayMessages.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2090,
+      "lines": 58
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/AsyncAction_ListenForGameplayMessage.cpp",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/AsyncAction_ListenForGameplayMessage.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 3637,
+      "lines": 110
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/GameplayMessageRuntime.cpp",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/GameplayMessageRuntime.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 154,
+      "lines": 5
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/GameplayMessageSubsystem.cpp",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/GameplayMessageSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 6639,
+      "lines": 191
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/AsyncAction_ListenForGameplayMessage.h",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/AsyncAction_ListenForGameplayMessage.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 3107,
+      "lines": 74
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/GameplayMessageSubsystem.h",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/GameplayMessageSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 9134,
+      "lines": 240
+    },
+    {
+      "path": "Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/GameplayMessageTypes2.h",
+      "snapshotPath": "files/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/GameplayMessageTypes2.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1786,
+      "lines": 51
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerEditorModule.cpp",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerEditorModule.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 30822,
+      "lines": 914
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerEditorProcessing.cpp",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerEditorProcessing.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 33717,
+      "lines": 1054
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerEditorProcessing.h",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerEditorProcessing.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 5010,
+      "lines": 146
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerToolSession.cpp",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerEditor/Private/PixelizerToolSession.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 4349,
+      "lines": 155
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerEditor/Public/PixelizerEditorModule.h",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerEditor/Public/PixelizerEditorModule.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2536,
+      "lines": 90
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerEditor/Public/PixelizerToolSession.h",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerEditor/Public/PixelizerToolSession.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2359,
+      "lines": 81
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerRuntime/Private/PixelizerRuntimeModule.cpp",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerRuntime/Private/PixelizerRuntimeModule.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 134,
+      "lines": 6
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerRuntime/Public/PixelizerRuntimeModule.h",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerRuntime/Public/PixelizerRuntimeModule.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 114,
+      "lines": 8
+    },
+    {
+      "path": "Plugins/Pixelizer/Source/PixelizerRuntime/Public/PixelizerTypes.h",
+      "snapshotPath": "files/Plugins/Pixelizer/Source/PixelizerRuntime/Public/PixelizerTypes.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 5391,
+      "lines": 189
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Private/ProximityVoiceLocalPlayerSubsystem.cpp",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Private/ProximityVoiceLocalPlayerSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 29647,
+      "lines": 929
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Private/ProximityVoiceRuntimeModule.cpp",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Private/ProximityVoiceRuntimeModule.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 261,
+      "lines": 13
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Private/ProximityVoiceTalkerComponent.cpp",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Private/ProximityVoiceTalkerComponent.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2134,
+      "lines": 69
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceDeveloperSettings.h",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1376,
+      "lines": 33
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceLocalPlayerSubsystem.h",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceLocalPlayerSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 5553,
+      "lines": 138
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceRuntimeModule.h",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceRuntimeModule.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 211,
+      "lines": 10
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceSaveGame.h",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceSaveGame.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 368,
+      "lines": 16
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceTalkerComponent.h",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceTalkerComponent.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 965,
+      "lines": 32
+    },
+    {
+      "path": "Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceTypes.h",
+      "snapshotPath": "files/Plugins/ProximityVoice/Source/ProximityVoiceRuntime/Public/ProximityVoiceTypes.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2070,
+      "lines": 63
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitMessageLog.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitMessageLog.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 3191,
+      "lines": 113
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelist.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelist.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 244,
+      "lines": 4
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelist.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelist.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1762,
+      "lines": 79
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelistState.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelistState.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2167,
+      "lines": 74
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelistState.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlChangelistState.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2640,
+      "lines": 84
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlCommand.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlCommand.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2790,
+      "lines": 82
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlCommand.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlCommand.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 4319,
+      "lines": 128
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlConsole.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlConsole.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 1748,
+      "lines": 44
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlConsole.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlConsole.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 593,
+      "lines": 18
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlMenu.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlMenu.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 24060,
+      "lines": 614
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlMenu.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlMenu.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2244,
+      "lines": 69
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlModule.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlModule.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 12062,
+      "lines": 241
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlModule.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlModule.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 6498,
+      "lines": 161
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlOperations.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlOperations.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 37054,
+      "lines": 909
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlOperations.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlOperations.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 6691,
+      "lines": 210
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlProvider.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlProvider.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 29996,
+      "lines": 929
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlProvider.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlProvider.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 11823,
+      "lines": 310
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRevision.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRevision.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 3783,
+      "lines": 134
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRevision.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRevision.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 2900,
+      "lines": 80
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRunner.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRunner.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2891,
+      "lines": 95
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRunner.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlRunner.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 656,
+      "lines": 34
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlSettings.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlSettings.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2988,
+      "lines": 86
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlSettings.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlSettings.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1413,
+      "lines": 50
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlState.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlState.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 13843,
+      "lines": 461
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlState.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlState.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 6460,
+      "lines": 220
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlUtils.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlUtils.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 88783,
+      "lines": 2511
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlUtils.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/GitSourceControlUtils.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 17114,
+      "lines": 367
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/IGitSourceControlWorker.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/IGitSourceControlWorker.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 924,
+      "lines": 31
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/SGitSourceControlSettings.cpp",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/SGitSourceControlSettings.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 35319,
+      "lines": 982
+    },
+    {
+      "path": "Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/SGitSourceControlSettings.h",
+      "snapshotPath": "files/Plugins/UEGitPlugin-3.16/UEGitPlugin-3.16/Source/GitSourceControl/Private/SGitSourceControlSettings.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 3419,
+      "lines": 100
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPBlueprintCommands.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPBlueprintCommands.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 49059,
+      "lines": 1185
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPBlueprintNodeCommands.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPBlueprintNodeCommands.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 39627,
+      "lines": 924
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPCommonUtils.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPCommonUtils.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 65783,
+      "lines": 1804
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPEditorCommands.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPEditorCommands.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 80379,
+      "lines": 2163
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPProjectCommands.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPProjectCommands.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 2323,
+      "lines": 72
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPUMGCommands.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/Commands/UnrealMCPUMGCommands.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 18365,
+      "lines": 544
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/MCPServerRunnable.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/MCPServerRunnable.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 13993,
+      "lines": 329
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/UnrealMCPBridge.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/UnrealMCPBridge.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 13199,
+      "lines": 359
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Private/UnrealMCPModule.cpp",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Private/UnrealMCPModule.cpp",
+      "language": "cpp",
+      "ownership": "third-party-plugin",
+      "bytes": 485,
+      "lines": 21
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPBlueprintCommands.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPBlueprintCommands.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1748,
+      "lines": 34
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPBlueprintNodeCommands.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPBlueprintNodeCommands.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1223,
+      "lines": 27
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPCommonUtils.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPCommonUtils.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 3299,
+      "lines": 62
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPEditorCommands.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPEditorCommands.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1901,
+      "lines": 39
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPProjectCommands.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPProjectCommands.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 491,
+      "lines": 20
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPUMGCommands.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/Commands/UnrealMCPUMGCommands.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 3359,
+      "lines": 82
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/MCPServerRunnable.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/MCPServerRunnable.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 806,
+      "lines": 34
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/UnrealMCPBridge.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/UnrealMCPBridge.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 1836,
+      "lines": 64
+    },
+    {
+      "path": "Plugins/UnrealMCP/Source/UnrealMCP/Public/UnrealMCPModule.h",
+      "snapshotPath": "files/Plugins/UnrealMCP/Source/UnrealMCP/Public/UnrealMCPModule.h",
+      "language": "cpp-header",
+      "ownership": "third-party-plugin",
+      "bytes": 480,
+      "lines": 22
+    },
+    {
+      "path": "Source/LOD/EMRCollisionChannels.h",
+      "snapshotPath": "files/Source/LOD/EMRCollisionChannels.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 317,
+      "lines": 10
+    },
+    {
+      "path": "Source/LOD/LOD.cpp",
+      "snapshotPath": "files/Source/LOD/LOD.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 174,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/LOD.h",
+      "snapshotPath": "files/Source/LOD/LOD.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 42,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/Private/Behavior/Tasks/EMRBTTask_SnapToTarget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Behavior/Tasks/EMRBTTask_SnapToTarget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7347,
+      "lines": 213
+    },
+    {
+      "path": "Source/LOD/Private/Characters/NPC/EMRHubertAnimInstance.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/NPC/EMRHubertAnimInstance.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3204,
+      "lines": 118
+    },
+    {
+      "path": "Source/LOD/Private/Characters/NPC/EMRHubertCharacter.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/NPC/EMRHubertCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4873,
+      "lines": 175
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Patient/DEPRECATEDEMRPatientSpawnerTest.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Patient/DEPRECATEDEMRPatientSpawnerTest.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3042,
+      "lines": 112
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Patient/EMRAIController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Patient/EMRAIController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3909,
+      "lines": 158
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Patient/EMRPatient.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Patient/EMRPatient.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 28868,
+      "lines": 1001
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Patient/EMRPatientAnimInstance.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Patient/EMRPatientAnimInstance.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1611,
+      "lines": 73
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Patient/EMRPatientAnimInstance.h",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Patient/EMRPatientAnimInstance.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1518,
+      "lines": 53
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Patient/EMRPatientData.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Patient/EMRPatientData.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2123,
+      "lines": 89
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Patient/EMRPatientIdentityPoolData.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Patient/EMRPatientIdentityPoolData.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1354,
+      "lines": 55
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Player/EMRHubPlayerController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Player/EMRHubPlayerController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 125,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Player/EMRPlayerAnimInstance.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Player/EMRPlayerAnimInstance.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3592,
+      "lines": 118
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Player/EMRPlayerAnimInstance.h",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Player/EMRPlayerAnimInstance.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1768,
+      "lines": 65
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Player/EMRPlayerCharacter.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Player/EMRPlayerCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 175960,
+      "lines": 5257
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Player/EMRPlayerController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Player/EMRPlayerController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 49270,
+      "lines": 1615
+    },
+    {
+      "path": "Source/LOD/Private/Characters/Player/EMRPlayerState.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Characters/Player/EMRPlayerState.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6123,
+      "lines": 264
+    },
+    {
+      "path": "Source/LOD/Private/Components/EMRInteractableDetectionComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Components/EMRInteractableDetectionComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4726,
+      "lines": 168
+    },
+    {
+      "path": "Source/LOD/Private/Components/EMRPlayerMachineInputComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Components/EMRPlayerMachineInputComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5716,
+      "lines": 196
+    },
+    {
+      "path": "Source/LOD/Private/Components/EMRPlayerViewStateComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Components/EMRPlayerViewStateComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1277,
+      "lines": 44
+    },
+    {
+      "path": "Source/LOD/Private/Components/EMRPlayerWidgetInteractionComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Components/EMRPlayerWidgetInteractionComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7392,
+      "lines": 183
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMRDifficultyTuningData.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMRDifficultyTuningData.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3701,
+      "lines": 131
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMREconomySystemGenerics.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMREconomySystemGenerics.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 345,
+      "lines": 12
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMRLabAnalyzerTestData.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMRLabAnalyzerTestData.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 42,
+      "lines": 2
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMRNightShiftDefinition.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMRNightShiftDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 308,
+      "lines": 12
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMRRunRulesData.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMRRunRulesData.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 280,
+      "lines": 11
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMRRunUpgradeDefinition.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMRRunUpgradeDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 306,
+      "lines": 12
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMRSpecialEventDefinition.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMRSpecialEventDefinition.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 565,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Private/Data/EMRToiletConfig.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/EMRToiletConfig.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 287,
+      "lines": 11
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRExamWaitingArea.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRExamWaitingArea.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 563,
+      "lines": 16
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRExamWaitingManagerComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRExamWaitingManagerComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 19351,
+      "lines": 562
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRHospitalExit.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRHospitalExit.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2785,
+      "lines": 84
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRMagicBoxActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRMagicBoxActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 17869,
+      "lines": 527
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRPatientEntryPoint.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRPatientEntryPoint.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 362,
+      "lines": 14
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRPatientPoolAnchor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRPatientPoolAnchor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 342,
+      "lines": 14
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRSnackMachineActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRSnackMachineActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6154,
+      "lines": 227
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRToiletSlotActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRToiletSlotActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6503,
+      "lines": 233
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRTreatmentWaitingArea.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRTreatmentWaitingArea.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 598,
+      "lines": 16
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRTreatmentWaitingManagerComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRTreatmentWaitingManagerComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 17929,
+      "lines": 509
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRWaitingRoomArea.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRWaitingRoomArea.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 561,
+      "lines": 16
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRWaitingRoomManagerComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRWaitingRoomManagerComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 20132,
+      "lines": 642
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRWaitingSeatActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRWaitingSeatActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 698,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Private/Environment/EMRWaitingSeatComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Environment/EMRWaitingSeatComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3422,
+      "lines": 100
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRAssetManager.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRAssetManager.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6209,
+      "lines": 229
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRFrontendGameMode.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRFrontendGameMode.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2779,
+      "lines": 123
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRFrontendGameState.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRFrontendGameState.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 696,
+      "lines": 35
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRHubertDirector.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRHubertDirector.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 80173,
+      "lines": 2111
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRHubGameMode.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRHubGameMode.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 69896,
+      "lines": 1979
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRHubGameState.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRHubGameState.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3513,
+      "lines": 156
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRHubPlayerSlot.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRHubPlayerSlot.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7594,
+      "lines": 296
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRHubSummaryDisplayActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRHubSummaryDisplayActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1348,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRLobbyGameMode.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRLobbyGameMode.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11463,
+      "lines": 345
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRLobbyGameState.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRLobbyGameState.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7631,
+      "lines": 247
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRLobbyPlayerSlot.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRLobbyPlayerSlot.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 14513,
+      "lines": 448
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRNightShiftGameMode.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRNightShiftGameMode.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 88354,
+      "lines": 2490
+    },
+    {
+      "path": "Source/LOD/Private/Framework/EMRNightShiftGameState.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/EMRNightShiftGameState.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 36042,
+      "lines": 1200
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_CallWaitingPatient.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_CallWaitingPatient.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6085,
+      "lines": 161
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_CTScanMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_CTScanMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1905,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_Interact.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_Interact.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5664,
+      "lines": 165
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_IntravenousMedicationStand.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_IntravenousMedicationStand.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2212,
+      "lines": 59
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_LabAnalyzerMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_LabAnalyzerMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2048,
+      "lines": 55
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_MoveToWaitingSeat.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_MoveToWaitingSeat.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6803,
+      "lines": 165
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_OpenMachineUI.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_OpenMachineUI.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2527,
+      "lines": 62
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_OxygenMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_OxygenMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1661,
+      "lines": 45
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformCTScan.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformCTScan.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2843,
+      "lines": 80
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformLabAnalyzerTests.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformLabAnalyzerTests.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3125,
+      "lines": 84
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformUltrasound.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformUltrasound.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2009,
+      "lines": 57
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformXRay.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PerformXRay.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4919,
+      "lines": 127
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PickItem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PickItem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4266,
+      "lines": 165
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PlaceItem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_PlaceItem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6107,
+      "lines": 183
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_ReceptionSeat.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_ReceptionSeat.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1970,
+      "lines": 57
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_SelectNightShift.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_SelectNightShift.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 10318,
+      "lines": 307
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_StopNightShift.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_StopNightShift.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3346,
+      "lines": 94
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_ToggleWatch.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_ToggleWatch.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 14303,
+      "lines": 364
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UltrasoundMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UltrasoundMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1961,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseCarriedObject.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseCarriedObject.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2402,
+      "lines": 81
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseCastTreatment.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseCastTreatment.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7769,
+      "lines": 247
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseCoffeePitcher.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseCoffeePitcher.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7845,
+      "lines": 183
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseIntravenousMedication.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseIntravenousMedication.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3385,
+      "lines": 105
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseIVBag.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseIVBag.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2160,
+      "lines": 59
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseLabAnalyzerTube.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseLabAnalyzerTube.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5071,
+      "lines": 150
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseOralTreatment.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseOralTreatment.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5116,
+      "lines": 164
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseOxygenTreatment.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseOxygenTreatment.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4850,
+      "lines": 129
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseSplintTreatment.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseSplintTreatment.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7818,
+      "lines": 246
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseToiletCleaner.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_UseToiletCleaner.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2291,
+      "lines": 70
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_XRayMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility_XRayMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2535,
+      "lines": 60
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/EMRGameplayAbility.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/EMRGameplayAbility.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3211,
+      "lines": 122
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Attributes/EMRPatientAttributeSet.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Attributes/EMRPatientAttributeSet.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3546,
+      "lines": 100
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Attributes/EMRTeamAttributeSet.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Attributes/EMRTeamAttributeSet.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2137,
+      "lines": 82
+    },
+    {
+      "path": "Source/LOD/Private/GAS/EMRAbilitySystemComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/EMRAbilitySystemComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 132,
+      "lines": 16
+    },
+    {
+      "path": "Source/LOD/Private/GAS/EMRTags.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/EMRTags.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 36573,
+      "lines": 560
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRBaseMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRBaseMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8163,
+      "lines": 284
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRCarryableComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRCarryableComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11826,
+      "lines": 407
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRCoffeeMachineActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRCoffeeMachineActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 16077,
+      "lines": 439
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRCoffeePitcherItemActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRCoffeePitcherItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 17589,
+      "lines": 544
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRCTScanMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRCTScanMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 45393,
+      "lines": 1559
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRFixedPlacementComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRFixedPlacementComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 657,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRHubTabletActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRHubTabletActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5862,
+      "lines": 203
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRInteractableComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRInteractableComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5181,
+      "lines": 207
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRIntravenousMedicationStand.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRIntravenousMedicationStand.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 49014,
+      "lines": 1636
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRItemActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRItemActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 12597,
+      "lines": 431
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRItemData.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRItemData.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1489,
+      "lines": 90
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRItemDispenser.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRItemDispenser.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 49579,
+      "lines": 1522
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRItemPlacementComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRItemPlacementComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6258,
+      "lines": 208
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRLabAnalyzerLid.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRLabAnalyzerLid.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3167,
+      "lines": 91
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRLabAnalyzerMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRLabAnalyzerMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 48585,
+      "lines": 1540
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRLabAnalyzerTrash.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRLabAnalyzerTrash.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1445,
+      "lines": 42
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRLabAnalyzerTube.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRLabAnalyzerTube.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 12886,
+      "lines": 508
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRLabAnalyzerTubeSpawnPoint.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRLabAnalyzerTubeSpawnPoint.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 537,
+      "lines": 16
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMROvertimeStopTerminal.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMROvertimeStopTerminal.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 12254,
+      "lines": 422
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMROxygenMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMROxygenMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 35920,
+      "lines": 1221
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMROxygenMask.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMROxygenMask.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4957,
+      "lines": 191
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRReceptionMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRReceptionMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 14267,
+      "lines": 413
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRToiletCleaner.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRToiletCleaner.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5909,
+      "lines": 236
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRTreatmentBed.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRTreatmentBed.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 18638,
+      "lines": 652
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRTreatmentBedFolder.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRTreatmentBedFolder.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 14062,
+      "lines": 524
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRUltrasoundMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRUltrasoundMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 71722,
+      "lines": 2368
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/EMRXRayMachine.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/EMRXRayMachine.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 57910,
+      "lines": 1847
+    },
+    {
+      "path": "Source/LOD/Private/Interaction/Reference/EMRPathologyReferencePaperActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interaction/Reference/EMRPathologyReferencePaperActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 10727,
+      "lines": 343
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/EMRGameplayEventInterface.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/EMRGameplayEventInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 53,
+      "lines": 1
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/EMRInteractableInterface.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/EMRInteractableInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 52,
+      "lines": 1
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/EMRLoadingProcessInterface.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/EMRLoadingProcessInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 446,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/EMRLoadingScreenInterface.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/EMRLoadingScreenInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 53,
+      "lines": 1
+    },
+    {
+      "path": "Source/LOD/Private/Lobby/EMRLobbyCharacterCatalog.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Lobby/EMRLobbyCharacterCatalog.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 229,
+      "lines": 7
+    },
+    {
+      "path": "Source/LOD/Private/Lobby/EMRLobbyCharacterDisplayActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Lobby/EMRLobbyCharacterDisplayActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11509,
+      "lines": 331
+    },
+    {
+      "path": "Source/LOD/Private/Lobby/EMRLobbyCharacterPreviewStage.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Lobby/EMRLobbyCharacterPreviewStage.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6621,
+      "lines": 223
+    },
+    {
+      "path": "Source/LOD/Private/LocalizationLibrary.cpp",
+      "snapshotPath": "files/Source/LOD/Private/LocalizationLibrary.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 645,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRExamQueueSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRExamQueueSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 69698,
+      "lines": 2204
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRGameplayTelemetrySubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRGameplayTelemetrySubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 16929,
+      "lines": 467
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRLoadingScreenSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRLoadingScreenSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 21303,
+      "lines": 708
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRLobbyCharacterSelectionSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRLobbyCharacterSelectionSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6129,
+      "lines": 185
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRLobbyFriendsSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRLobbyFriendsSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7211,
+      "lines": 266
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRLobbyInviteCodeSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRLobbyInviteCodeSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 25403,
+      "lines": 755
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRLobbySessionSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRLobbySessionSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 39231,
+      "lines": 1134
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRLocalizationDeveloperSettings.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRLocalizationDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 565,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRLocalizationSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRLocalizationSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5001,
+      "lines": 166
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRMagicBoxSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRMagicBoxSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 24370,
+      "lines": 637
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRNavigationIntentSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRNavigationIntentSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8870,
+      "lines": 327
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRNightShiftSpawnSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRNightShiftSpawnSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 39568,
+      "lines": 1126
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRPatientPoolSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRPatientPoolSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 20739,
+      "lines": 686
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRRunProgressionSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRRunProgressionSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 14732,
+      "lines": 372
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRRunRulesSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRRunRulesSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 12068,
+      "lines": 370
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRSnackMachineSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRSnackMachineSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 20892,
+      "lines": 751
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRSpecialEventLightSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRSpecialEventLightSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11514,
+      "lines": 370
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRSubsystemConfig.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRSubsystemConfig.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2974,
+      "lines": 99
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRToiletSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRToiletSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 18722,
+      "lines": 735
+    },
+    {
+      "path": "Source/LOD/Private/Subsystems/EMRTreatmentSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Subsystems/EMRTreatmentSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 41015,
+      "lines": 1332
+    },
+    {
+      "path": "Source/LOD/Private/Tests/EMRCompleteGameFlowRunRulesTests.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Tests/EMRCompleteGameFlowRunRulesTests.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 9671,
+      "lines": 272
+    },
+    {
+      "path": "Source/LOD/Private/Tests/EMRGameplayTelemetryTests.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Tests/EMRGameplayTelemetryTests.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 9318,
+      "lines": 209
+    },
+    {
+      "path": "Source/LOD/Private/Tests/EMRPatientFlowAllActionsTests.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Tests/EMRPatientFlowAllActionsTests.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 43907,
+      "lines": 1256
+    },
+    {
+      "path": "Source/LOD/Private/UI/Common/Screens/GameHud/EMRGameplayHudRootWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Common/Screens/GameHud/EMRGameplayHudRootWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 322,
+      "lines": 9
+    },
+    {
+      "path": "Source/LOD/Private/UI/Common/Screens/GameHud/EMRGameplayKeybindHelperWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Common/Screens/GameHud/EMRGameplayKeybindHelperWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4527,
+      "lines": 155
+    },
+    {
+      "path": "Source/LOD/Private/UI/Common/Screens/GameMenu/EMRGameplayMenuWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Common/Screens/GameMenu/EMRGameplayMenuWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 19548,
+      "lines": 581
+    },
+    {
+      "path": "Source/LOD/Private/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryData.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryData.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2196,
+      "lines": 70
+    },
+    {
+      "path": "Source/LOD/Private/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 9230,
+      "lines": 306
+    },
+    {
+      "path": "Source/LOD/Private/UI/Common/Screens/GameMenu/EMRVoiceRosterRowBinding.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Common/Screens/GameMenu/EMRVoiceRosterRowBinding.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1165,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Private/UI/Common/Subsystems/EMRUIManagerSubsystem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Common/Subsystems/EMRUIManagerSubsystem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11156,
+      "lines": 376
+    },
+    {
+      "path": "Source/LOD/Private/UI/DEPRECATEDEMRNightShiftDebugWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/DEPRECATEDEMRNightShiftDebugWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8691,
+      "lines": 232
+    },
+    {
+      "path": "Source/LOD/Private/UI/DEPRECATEDEMRNightShiftStatusWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/DEPRECATEDEMRNightShiftStatusWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 9557,
+      "lines": 323
+    },
+    {
+      "path": "Source/LOD/Private/UI/Dev/EMRDeveloperToolsWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Dev/EMRDeveloperToolsWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 15260,
+      "lines": 480
+    },
+    {
+      "path": "Source/LOD/Private/UI/EMRItemWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/EMRItemWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1593,
+      "lines": 76
+    },
+    {
+      "path": "Source/LOD/Private/UI/EMRPlayerWatchWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/EMRPlayerWatchWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 13911,
+      "lines": 486
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/AsyncActions/EMRAsyncAction_PushConfirmScreen.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/AsyncActions/EMRAsyncAction_PushConfirmScreen.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1259,
+      "lines": 48
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/AsyncActions/EMRAsyncAction_PushSoftWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/AsyncActions/EMRAsyncAction_PushSoftWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2284,
+      "lines": 77
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRCommonActionTextWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRCommonActionTextWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2357,
+      "lines": 81
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRCommonListEntryWidgetKeyRemap.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRCommonListEntryWidgetKeyRemap.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5160,
+      "lines": 136
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRCommonListEntryWidgetScalar.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRCommonListEntryWidgetScalar.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3277,
+      "lines": 89
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRCommonListEntryWidgetString.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRCommonListEntryWidgetString.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2949,
+      "lines": 87
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRCommonPrimaryLayoutWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRCommonPrimaryLayoutWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1271,
+      "lines": 49
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonActivatableWidgetBase.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonActivatableWidgetBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 460,
+      "lines": 17
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonButtonBase.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonButtonBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1445,
+      "lines": 67
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonListEntryWidgetBase.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonListEntryWidgetBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3817,
+      "lines": 129
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonListView.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonListView.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1617,
+      "lines": 47
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonRotator.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonRotator.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 474,
+      "lines": 26
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonTabListWidgetBase.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMRFrontendCommonTabListWidgetBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 958,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Core/EMROptionsDetailsViewWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Core/EMROptionsDetailsViewWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1864,
+      "lines": 54
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRDataListEntryMapping.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRDataListEntryMapping.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 737,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectBase.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2589,
+      "lines": 98
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectCollection.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectCollection.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 588,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectKeyRemap.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectKeyRemap.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2834,
+      "lines": 106
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectLobbyFriend.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectLobbyFriend.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1640,
+      "lines": 58
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectScalar.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectScalar.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2305,
+      "lines": 93
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectString.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectString.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 9882,
+      "lines": 362
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectStringResolution.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectStringResolution.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1726,
+      "lines": 62
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectValue.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMRListDataObjectValue.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 403,
+      "lines": 15
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMROptionsDataInteractionHelper.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMROptionsDataInteractionHelper.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 839,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Data/EMROptionsDataRegistry.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Data/EMROptionsDataRegistry.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 77107,
+      "lines": 1482
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/EMRFPSCounterWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/EMRFPSCounterWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 13337,
+      "lines": 407
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/EMRFrontendDeveloperSettings.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/EMRFrontendDeveloperSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 58,
+      "lines": 1
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/EMRFrontendPlayerController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/EMRFrontendPlayerController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8709,
+      "lines": 280
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/EMRGameUserSettings.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/EMRGameUserSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 50398,
+      "lines": 1725
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/EMRLoadingScreenSettings.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/EMRLoadingScreenSettings.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 441,
+      "lines": 14
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/EMRLoadingScreenSettings.h",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/EMRLoadingScreenSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1144,
+      "lines": 37
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/EMRConfirmScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/EMRConfirmScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4533,
+      "lines": 118
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/EMRKeyRemapScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/EMRKeyRemapScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5803,
+      "lines": 196
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyCharacterSelectionWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyCharacterSelectionWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 12902,
+      "lines": 405
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyFriendListEntryWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyFriendListEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2587,
+      "lines": 94
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyPlayerController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyPlayerController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7925,
+      "lines": 251
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbyScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 17793,
+      "lines": 543
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbySocialsScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendLobbySocialsScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3252,
+      "lines": 113
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendPlayerSlotInfosWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/Lobby/EMRFrontendPlayerSlotInfosWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3194,
+      "lines": 105
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/MainMenu/EMRCreditsScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/MainMenu/EMRCreditsScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 541,
+      "lines": 18
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/MainMenu/EMRFrontendMainMenuScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/MainMenu/EMRFrontendMainMenuScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6729,
+      "lines": 201
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Screens/MainMenu/EMROptionsScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Screens/MainMenu/EMROptionsScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7515,
+      "lines": 272
+    },
+    {
+      "path": "Source/LOD/Private/UI/Frontend/Utils/EMRFrontendFunctionLibrary.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Frontend/Utils/EMRFrontendFunctionLibrary.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1272,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Private/UI/Hub/EMRCommonHubNightShiftEntryWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Hub/EMRCommonHubNightShiftEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4539,
+      "lines": 139
+    },
+    {
+      "path": "Source/LOD/Private/UI/Hub/EMRCommonHubNightShiftListDataObject.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Hub/EMRCommonHubNightShiftListDataObject.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 742,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Private/UI/Hub/EMRCommonHubNightShiftSelectionWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Hub/EMRCommonHubNightShiftSelectionWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11122,
+      "lines": 383
+    },
+    {
+      "path": "Source/LOD/Private/UI/Hub/EMRCommonHubUpgradeEntryWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Hub/EMRCommonHubUpgradeEntryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1789,
+      "lines": 49
+    },
+    {
+      "path": "Source/LOD/Private/UI/Hub/EMRCommonHubUpgradeListDataObject.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Hub/EMRCommonHubUpgradeListDataObject.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 933,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Private/UI/Hub/EMRCommonHubUpgradeVoteWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Hub/EMRCommonHubUpgradeVoteWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11677,
+      "lines": 347
+    },
+    {
+      "path": "Source/LOD/Private/UI/Hub/EMRHubSummaryWorldWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Hub/EMRHubSummaryWorldWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 10018,
+      "lines": 308
+    },
+    {
+      "path": "Source/LOD/Private/UI/Interaction/EMRInteractableNameWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Interaction/EMRInteractableNameWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 624,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Private/UI/Interaction/EMRItemDispenserOrderWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Interaction/EMRItemDispenserOrderWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 679,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Private/UI/Interaction/EMRItemDispenserSlotWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Interaction/EMRItemDispenserSlotWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 602,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Private/UI/Lobby/EMRQualitySettingsWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Lobby/EMRQualitySettingsWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7819,
+      "lines": 229
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/LabAnalyzer/EMRLabAnalyzerValidationErrorWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/LabAnalyzer/EMRLabAnalyzerValidationErrorWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 748,
+      "lines": 35
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/TreatmentBed/DEPRECATEDEMRTreatmentScreenWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/TreatmentBed/DEPRECATEDEMRTreatmentScreenWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1183,
+      "lines": 60
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRCommonTriageMainWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRCommonTriageMainWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11196,
+      "lines": 404
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRTriageMainWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRTriageMainWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 10779,
+      "lines": 400
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCard.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCard.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8213,
+      "lines": 336
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCardCommonButton.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCardCommonButton.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 69,
+      "lines": 1
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCardListEntry.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCardListEntry.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1072,
+      "lines": 45
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCardObject.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientCardObject.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 491,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientDetailWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRTriagePatientDetailWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 13729,
+      "lines": 521
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Triage/EMRTriageValidationErrorWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Triage/EMRTriageValidationErrorWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1183,
+      "lines": 59
+    },
+    {
+      "path": "Source/LOD/Private/UI/Machines/Ultrasound/EMRUltrasoundSliderWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Machines/Ultrasound/EMRUltrasoundSliderWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3220,
+      "lines": 112
+    },
+    {
+      "path": "Source/LOD/Private/UI/Patient/EMRPatientFolderWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Patient/EMRPatientFolderWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6464,
+      "lines": 244
+    },
+    {
+      "path": "Source/LOD/Private/UI/Patient/EMRPatientUIController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Patient/EMRPatientUIController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4903,
+      "lines": 160
+    },
+    {
+      "path": "Source/LOD/Private/UI/Reference/EMRPathologyReferenceListEntryWidgetBase.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Reference/EMRPathologyReferenceListEntryWidgetBase.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1180,
+      "lines": 48
+    },
+    {
+      "path": "Source/LOD/Private/UI/Reference/EMRPathologyReferencePaperRowItem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Reference/EMRPathologyReferencePaperRowItem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 284,
+      "lines": 10
+    },
+    {
+      "path": "Source/LOD/Private/UI/Reference/EMRPathologyReferencePaperWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/UI/Reference/EMRPathologyReferencePaperWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 12217,
+      "lines": 374
+    },
+    {
+      "path": "Source/LOD/Public/Behavior/Tasks/EMRBTTask_SnapToTarget.h",
+      "snapshotPath": "files/Source/LOD/Public/Behavior/Tasks/EMRBTTask_SnapToTarget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2044,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Public/Characters/NPC/EMRHubertAnimInstance.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/NPC/EMRHubertAnimInstance.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2290,
+      "lines": 73
+    },
+    {
+      "path": "Source/LOD/Public/Characters/NPC/EMRHubertCharacter.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/NPC/EMRHubertCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1628,
+      "lines": 56
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Patient/DEPRECATEDEMRPatientSpawnerTest.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Patient/DEPRECATEDEMRPatientSpawnerTest.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1139,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Patient/EMRAIController.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Patient/EMRAIController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1919,
+      "lines": 59
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Patient/EMRPatient.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Patient/EMRPatient.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 9161,
+      "lines": 244
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Patient/EMRPatientData.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Patient/EMRPatientData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4910,
+      "lines": 149
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Patient/EMRPatientIdentityPoolData.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Patient/EMRPatientIdentityPoolData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1144,
+      "lines": 41
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Player/EMRHubPlayerController.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Player/EMRHubPlayerController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 263,
+      "lines": 13
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Player/EMRPlayerCharacter.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Player/EMRPlayerCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 31314,
+      "lines": 792
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Player/EMRPlayerController.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Player/EMRPlayerController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 8991,
+      "lines": 245
+    },
+    {
+      "path": "Source/LOD/Public/Characters/Player/EMRPlayerState.h",
+      "snapshotPath": "files/Source/LOD/Public/Characters/Player/EMRPlayerState.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2995,
+      "lines": 102
+    },
+    {
+      "path": "Source/LOD/Public/Components/EMRInteractableDetectionComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Components/EMRInteractableDetectionComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2210,
+      "lines": 58
+    },
+    {
+      "path": "Source/LOD/Public/Components/EMRPlayerMachineInputComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Components/EMRPlayerMachineInputComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1978,
+      "lines": 50
+    },
+    {
+      "path": "Source/LOD/Public/Components/EMRPlayerViewStateComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Components/EMRPlayerViewStateComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 759,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/Components/EMRPlayerWidgetInteractionComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Components/EMRPlayerWidgetInteractionComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1035,
+      "lines": 35
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRAttributeToTagMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRAttributeToTagMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 609,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRCTScanTargetData.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRCTScanTargetData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 963,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRDifficultyTuningData.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRDifficultyTuningData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 21108,
+      "lines": 526
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMREconomySystemGenerics.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMREconomySystemGenerics.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1316,
+      "lines": 40
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRExamMachineCompletionMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRExamMachineCompletionMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1301,
+      "lines": 32
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRExamQueueMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRExamQueueMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1267,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRExamRequirementsForPathologyMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRExamRequirementsForPathologyMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1040,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRLabAnalyzerTestData.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRLabAnalyzerTestData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 755,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRNavigationTargetMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRNavigationTargetMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1070,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRNightShiftDefinition.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRNightShiftDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 7182,
+      "lines": 192
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRRunRulesData.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRRunRulesData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1418,
+      "lines": 38
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRRunUpgradeDefinition.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRRunUpgradeDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1088,
+      "lines": 31
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRSpecialEventDefinition.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRSpecialEventDefinition.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1951,
+      "lines": 45
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRTagsLocalizationTable.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRTagsLocalizationTable.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 521,
+      "lines": 22
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRToiletConfig.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRToiletConfig.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2404,
+      "lines": 66
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRTreatmentForPathologyMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRTreatmentForPathologyMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 666,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRTreatmentQueueMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRTreatmentQueueMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1033,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRUltrasoundTargetData.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRUltrasoundTargetData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 763,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Public/Data/EMRXRayTargetData.h",
+      "snapshotPath": "files/Source/LOD/Public/Data/EMRXRayTargetData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 730,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Public/Developer/EMRDeveloperToolsTypes.h",
+      "snapshotPath": "files/Source/LOD/Public/Developer/EMRDeveloperToolsTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1870,
+      "lines": 62
+    },
+    {
+      "path": "Source/LOD/Public/EMRLabAnalyzerLog.h",
+      "snapshotPath": "files/Source/LOD/Public/EMRLabAnalyzerLog.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 157,
+      "lines": 5
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRExamWaitingArea.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRExamWaitingArea.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 935,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRExamWaitingManagerComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRExamWaitingManagerComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5109,
+      "lines": 119
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRHospitalExit.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRHospitalExit.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1318,
+      "lines": 44
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRMagicBoxActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRMagicBoxActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 6827,
+      "lines": 178
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRPatientEntryPoint.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRPatientEntryPoint.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 603,
+      "lines": 26
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRPatientPoolAnchor.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRPatientPoolAnchor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 563,
+      "lines": 26
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRSnackMachineActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRSnackMachineActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2837,
+      "lines": 86
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRToiletSlotActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRToiletSlotActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3521,
+      "lines": 107
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRTreatmentWaitingArea.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRTreatmentWaitingArea.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 990,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRTreatmentWaitingManagerComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRTreatmentWaitingManagerComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4465,
+      "lines": 106
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRWaitingRoomArea.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRWaitingRoomArea.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 937,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRWaitingRoomManagerComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRWaitingRoomManagerComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5811,
+      "lines": 138
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRWaitingSeatActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRWaitingSeatActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 988,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Public/Environment/EMRWaitingSeatComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Environment/EMRWaitingSeatComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3603,
+      "lines": 94
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRAssetManager.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRAssetManager.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2603,
+      "lines": 88
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRFrontendGameMode.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRFrontendGameMode.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 805,
+      "lines": 32
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRFrontendGameState.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRFrontendGameState.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 942,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRHubertDirector.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRHubertDirector.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 11197,
+      "lines": 261
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRHubGameMode.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRHubGameMode.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 6212,
+      "lines": 156
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRHubGameState.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRHubGameState.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1472,
+      "lines": 50
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRHubPlayerSlot.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRHubPlayerSlot.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2875,
+      "lines": 89
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRHubSummaryDisplayActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRHubSummaryDisplayActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 772,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRLobbyGameMode.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRLobbyGameMode.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1304,
+      "lines": 47
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRLobbyGameState.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRLobbyGameState.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2640,
+      "lines": 74
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRLobbyPlayerSlot.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRLobbyPlayerSlot.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3208,
+      "lines": 103
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRNightShiftGameMode.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRNightShiftGameMode.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 10091,
+      "lines": 258
+    },
+    {
+      "path": "Source/LOD/Public/Framework/EMRNightShiftGameState.h",
+      "snapshotPath": "files/Source/LOD/Public/Framework/EMRNightShiftGameState.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 25813,
+      "lines": 592
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_CallWaitingPatient.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_CallWaitingPatient.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1139,
+      "lines": 31
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_CTScanMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_CTScanMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 632,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_Interact.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_Interact.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1332,
+      "lines": 35
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_IntravenousMedicationStand.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_IntravenousMedicationStand.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 668,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_LabAnalyzerMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_LabAnalyzerMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 568,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_MoveToWaitingSeat.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_MoveToWaitingSeat.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1068,
+      "lines": 27
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_OpenMachineUI.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_OpenMachineUI.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 590,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_OxygenMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_OxygenMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 629,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformCTScan.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformCTScan.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 970,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformLabAnalyzerTests.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformLabAnalyzerTests.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 583,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformUltrasound.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformUltrasound.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 815,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformXRay.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PerformXRay.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1402,
+      "lines": 37
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PickItem.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PickItem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 793,
+      "lines": 26
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PlaceItem.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_PlaceItem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 937,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_ReceptionSeat.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_ReceptionSeat.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 566,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_SelectNightShift.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_SelectNightShift.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2496,
+      "lines": 76
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_StopNightShift.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_StopNightShift.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 876,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_ToggleWatch.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_ToggleWatch.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1794,
+      "lines": 55
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UltrasoundMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UltrasoundMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 641,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseCarriedObject.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseCarriedObject.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 664,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseCastTreatment.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseCastTreatment.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1041,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseCoffeePitcher.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseCoffeePitcher.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 573,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseIntravenousMedication.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseIntravenousMedication.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 871,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseIVBag.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseIVBag.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 537,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseLabAnalyzerTube.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseLabAnalyzerTube.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 568,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseOralTreatment.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseOralTreatment.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 731,
+      "lines": 26
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseOxygenTreatment.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseOxygenTreatment.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 644,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseSplintTreatment.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseSplintTreatment.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1055,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseToiletCleaner.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_UseToiletCleaner.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 563,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_XRayMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility_XRayMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 626,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Abilities/EMRGameplayAbility.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Abilities/EMRGameplayAbility.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1264,
+      "lines": 36
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Attributes/EMRPatientAttributeSet.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Attributes/EMRPatientAttributeSet.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4012,
+      "lines": 89
+    },
+    {
+      "path": "Source/LOD/Public/GAS/Attributes/EMRTeamAttributeSet.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/Attributes/EMRTeamAttributeSet.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1177,
+      "lines": 38
+    },
+    {
+      "path": "Source/LOD/Public/GAS/EMRAbilitySystemComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/EMRAbilitySystemComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 357,
+      "lines": 18
+    },
+    {
+      "path": "Source/LOD/Public/GAS/EMRGASConfig.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/EMRGASConfig.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 638,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/GAS/EMRTags.h",
+      "snapshotPath": "files/Source/LOD/Public/GAS/EMRTags.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 17568,
+      "lines": 506
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRBaseMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRBaseMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2927,
+      "lines": 94
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRCarryableComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRCarryableComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4044,
+      "lines": 106
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRCoffeeMachineActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRCoffeeMachineActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4176,
+      "lines": 104
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRCoffeePitcherItemActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRCoffeePitcherItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5767,
+      "lines": 149
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRCTScanMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRCTScanMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 12128,
+      "lines": 307
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRFixedPlacementComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRFixedPlacementComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 946,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRHubTabletActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRHubTabletActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2870,
+      "lines": 84
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRInteractableComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRInteractableComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4562,
+      "lines": 119
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRIntravenousMedicationStand.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRIntravenousMedicationStand.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 11286,
+      "lines": 321
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRItemDispenser.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRItemDispenser.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 12009,
+      "lines": 314
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRItemPlacementComponent.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRItemPlacementComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2207,
+      "lines": 79
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRLabAnalyzerLid.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRLabAnalyzerLid.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1402,
+      "lines": 39
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRLabAnalyzerMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRLabAnalyzerMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 13774,
+      "lines": 350
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRLabAnalyzerTrash.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRLabAnalyzerTrash.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 931,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRLabAnalyzerTube.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRLabAnalyzerTube.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5168,
+      "lines": 141
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRLabAnalyzerTubeSpawnPoint.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRLabAnalyzerTubeSpawnPoint.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 683,
+      "lines": 27
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMROvertimeStopTerminal.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMROvertimeStopTerminal.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5005,
+      "lines": 139
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMROxygenMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMROxygenMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 8661,
+      "lines": 215
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMROxygenMask.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMROxygenMask.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1706,
+      "lines": 57
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRReceptionMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRReceptionMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4854,
+      "lines": 142
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRToiletCleaner.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRToiletCleaner.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1681,
+      "lines": 49
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRTreatmentBed.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRTreatmentBed.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5778,
+      "lines": 186
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRTreatmentBedFolder.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRTreatmentBedFolder.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3843,
+      "lines": 103
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRUltrasoundMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRUltrasoundMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 19290,
+      "lines": 463
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/EMRXRayMachine.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/EMRXRayMachine.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 15076,
+      "lines": 415
+    },
+    {
+      "path": "Source/LOD/Public/Interaction/Reference/EMRPathologyReferencePaperActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Interaction/Reference/EMRPathologyReferencePaperActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3387,
+      "lines": 81
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRAnchoredCarryItemInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRAnchoredCarryItemInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 796,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRCarriedWorldWidgetInteractionInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRCarriedWorldWidgetInteractionInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 483,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRFirstPersonCarryViewInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRFirstPersonCarryViewInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1391,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRGameplayEventInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRGameplayEventInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 727,
+      "lines": 26
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRInteractableInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRInteractableInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 887,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRLoadingProcessInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRLoadingProcessInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 474,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRLoadingScreenInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRLoadingScreenInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 437,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Public/Interfaces/EMRSeatedAnimationInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/Interfaces/EMRSeatedAnimationInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 612,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Public/Lobby/EMRLobbyCharacterCatalog.h",
+      "snapshotPath": "files/Source/LOD/Public/Lobby/EMRLobbyCharacterCatalog.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1685,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Public/Lobby/EMRLobbyCharacterDisplayActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Lobby/EMRLobbyCharacterDisplayActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1147,
+      "lines": 45
+    },
+    {
+      "path": "Source/LOD/Public/Lobby/EMRLobbyCharacterPreviewStage.h",
+      "snapshotPath": "files/Source/LOD/Public/Lobby/EMRLobbyCharacterPreviewStage.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1936,
+      "lines": 65
+    },
+    {
+      "path": "Source/LOD/Public/LocalizationLibrary.h",
+      "snapshotPath": "files/Source/LOD/Public/LocalizationLibrary.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 257,
+      "lines": 12
+    },
+    {
+      "path": "Source/LOD/Public/SaveGame/EMRLobbyCharacterSelectionSaveGame.h",
+      "snapshotPath": "files/Source/LOD/Public/SaveGame/EMRLobbyCharacterSelectionSaveGame.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 321,
+      "lines": 15
+    },
+    {
+      "path": "Source/LOD/Public/Shop/EMRItemActor.h",
+      "snapshotPath": "files/Source/LOD/Public/Shop/EMRItemActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5038,
+      "lines": 138
+    },
+    {
+      "path": "Source/LOD/Public/Shop/EMRItemData.h",
+      "snapshotPath": "files/Source/LOD/Public/Shop/EMRItemData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5916,
+      "lines": 140
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRExamQueueSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRExamQueueSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 8230,
+      "lines": 227
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRGameplayTelemetrySubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRGameplayTelemetrySubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1565,
+      "lines": 47
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRLoadingScreenSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRLoadingScreenSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2450,
+      "lines": 80
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRLobbyCharacterSelectionSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRLobbyCharacterSelectionSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1039,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRLobbyFriendsSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRLobbyFriendsSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1803,
+      "lines": 57
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRLobbyInviteCodeSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRLobbyInviteCodeSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4148,
+      "lines": 120
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRLobbySessionSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRLobbySessionSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4250,
+      "lines": 125
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRLocalizationDeveloperSettings.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRLocalizationDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1042,
+      "lines": 36
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRLocalizationSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRLocalizationSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1299,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRMagicBoxSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRMagicBoxSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1945,
+      "lines": 62
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRNavigationIntentSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRNavigationIntentSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3592,
+      "lines": 103
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRNightShiftSpawnSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRNightShiftSpawnSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 10588,
+      "lines": 286
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRPatientPoolSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRPatientPoolSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5320,
+      "lines": 155
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRRunProgressionSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRRunProgressionSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4066,
+      "lines": 140
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRRunRulesSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRRunRulesSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2925,
+      "lines": 82
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRSnackMachineSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRSnackMachineSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2385,
+      "lines": 77
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRSpecialEventLightSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRSpecialEventLightSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2230,
+      "lines": 64
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRSubsystemConfig.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRSubsystemConfig.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5933,
+      "lines": 124
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRToiletSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRToiletSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2276,
+      "lines": 77
+    },
+    {
+      "path": "Source/LOD/Public/Subsystems/EMRTreatmentSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/Subsystems/EMRTreatmentSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 7526,
+      "lines": 200
+    },
+    {
+      "path": "Source/LOD/Public/Telemetry/EMRGameplayTelemetryTypes.h",
+      "snapshotPath": "files/Source/LOD/Public/Telemetry/EMRGameplayTelemetryTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3318,
+      "lines": 105
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/EMRPreferredFocusWidgetInterface.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/EMRPreferredFocusWidgetInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 471,
+      "lines": 22
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/Screens/GameHud/EMRGameplayHudRootWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/Screens/GameHud/EMRGameplayHudRootWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 422,
+      "lines": 14
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/Screens/GameHud/EMRGameplayKeybindHelperWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/Screens/GameHud/EMRGameplayKeybindHelperWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1555,
+      "lines": 51
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/Screens/GameMenu/EMRGameplayMenuWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/Screens/GameMenu/EMRGameplayMenuWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5351,
+      "lines": 140
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryData.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1633,
+      "lines": 55
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/Screens/GameMenu/EMRVoiceRosterEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3578,
+      "lines": 98
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/Screens/GameMenu/EMRVoiceRosterRowBinding.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/Screens/GameMenu/EMRVoiceRosterRowBinding.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 830,
+      "lines": 39
+    },
+    {
+      "path": "Source/LOD/Public/UI/Common/Subsystems/EMRUIManagerSubsystem.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Common/Subsystems/EMRUIManagerSubsystem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2638,
+      "lines": 63
+    },
+    {
+      "path": "Source/LOD/Public/UI/DEPRECATEDEMRNightShiftDebugWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/DEPRECATEDEMRNightShiftDebugWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1838,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Public/UI/DEPRECATEDEMRNightShiftStatusWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/DEPRECATEDEMRNightShiftStatusWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2260,
+      "lines": 75
+    },
+    {
+      "path": "Source/LOD/Public/UI/Dev/EMRDeveloperToolsWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Dev/EMRDeveloperToolsWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4379,
+      "lines": 136
+    },
+    {
+      "path": "Source/LOD/Public/UI/EMRItemWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/EMRItemWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 829,
+      "lines": 38
+    },
+    {
+      "path": "Source/LOD/Public/UI/EMRPlayerWatchWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/EMRPlayerWatchWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3182,
+      "lines": 96
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/AsyncActions/EMRAsyncAction_PushConfirmScreen.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/AsyncActions/EMRAsyncAction_PushConfirmScreen.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1137,
+      "lines": 37
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/AsyncActions/EMRAsyncAction_PushSoftWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/AsyncActions/EMRAsyncAction_PushSoftWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1520,
+      "lines": 43
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRCommonActionTextWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRCommonActionTextWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1064,
+      "lines": 38
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRCommonListEntryWidgetKeyRemap.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRCommonListEntryWidgetKeyRemap.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1406,
+      "lines": 41
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRCommonListEntryWidgetScalar.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRCommonListEntryWidgetScalar.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1567,
+      "lines": 55
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRCommonListEntryWidgetString.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRCommonListEntryWidgetString.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1620,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRCommonPrimaryLayoutWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRCommonPrimaryLayoutWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 868,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonActivatableWidgetBase.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonActivatableWidgetBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 571,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonButtonBase.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonButtonBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1633,
+      "lines": 56
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonListEntryWidgetBase.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonListEntryWidgetBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2838,
+      "lines": 65
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonListView.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonListView.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 809,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonRotator.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonRotator.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 363,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonTabListWidgetBase.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMRFrontendCommonTabListWidgetBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 939,
+      "lines": 32
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Core/EMROptionsDetailsViewWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Core/EMROptionsDetailsViewWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1222,
+      "lines": 45
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRDataListEntryMapping.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRDataListEntryMapping.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 620,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectBase.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3649,
+      "lines": 87
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectCollection.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectCollection.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 566,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectKeyRemap.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectKeyRemap.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1500,
+      "lines": 57
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectLobbyFriend.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectLobbyFriend.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2481,
+      "lines": 69
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectScalar.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectScalar.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1498,
+      "lines": 44
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectString.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectString.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3778,
+      "lines": 126
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectStringResolution.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectStringResolution.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 671,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectValue.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMRListDataObjectValue.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 997,
+      "lines": 31
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMROptionsDataInteractionHelper.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMROptionsDataInteractionHelper.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 501,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Data/EMROptionsDataRegistry.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Data/EMROptionsDataRegistry.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1131,
+      "lines": 37
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/EMRFPSCounterWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/EMRFPSCounterWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2246,
+      "lines": 96
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/EMRFrontendDeveloperSettings.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/EMRFrontendDeveloperSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1300,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/EMRFrontendPlayerController.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/EMRFrontendPlayerController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1623,
+      "lines": 56
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/EMRFrontendStructTypes.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/EMRFrontendStructTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1211,
+      "lines": 63
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/EMRGameUserSettings.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/EMRGameUserSettings.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 9351,
+      "lines": 375
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/EMRConfirmScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/EMRConfirmScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1999,
+      "lines": 68
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/EMRKeyRemapScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/EMRKeyRemapScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1637,
+      "lines": 47
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyCharacterSelectionWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyCharacterSelectionWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2743,
+      "lines": 76
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyFriendList.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyFriendList.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 282,
+      "lines": 14
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyFriendListEntryWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyFriendListEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1501,
+      "lines": 44
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyPlayerController.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyPlayerController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1421,
+      "lines": 54
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbyScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4704,
+      "lines": 138
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbySocialsScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendLobbySocialsScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1149,
+      "lines": 39
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendPlayerSlotInfosWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/Lobby/EMRFrontendPlayerSlotInfosWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1561,
+      "lines": 58
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/MainMenu/EMRCreditsScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/MainMenu/EMRCreditsScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 484,
+      "lines": 19
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/MainMenu/EMRFrontendMainMenuScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/MainMenu/EMRFrontendMainMenuScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3658,
+      "lines": 101
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Screens/MainMenu/EMROptionsScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Screens/MainMenu/EMROptionsScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2313,
+      "lines": 72
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Utils/DebugHelper.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Utils/DebugHelper.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 367,
+      "lines": 16
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Utils/EMRFrontendEnumTypes.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Utils/EMRFrontendEnumTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 436,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Public/UI/Frontend/Utils/EMRFrontendFunctionLibrary.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Frontend/Utils/EMRFrontendFunctionLibrary.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 818,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Public/UI/Hub/EMRCommonHubNightShiftEntryWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Hub/EMRCommonHubNightShiftEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2038,
+      "lines": 55
+    },
+    {
+      "path": "Source/LOD/Public/UI/Hub/EMRCommonHubNightShiftListDataObject.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Hub/EMRCommonHubNightShiftListDataObject.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 862,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Public/UI/Hub/EMRCommonHubNightShiftSelectionWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Hub/EMRCommonHubNightShiftSelectionWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2995,
+      "lines": 90
+    },
+    {
+      "path": "Source/LOD/Public/UI/Hub/EMRCommonHubUpgradeEntryWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Hub/EMRCommonHubUpgradeEntryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1403,
+      "lines": 38
+    },
+    {
+      "path": "Source/LOD/Public/UI/Hub/EMRCommonHubUpgradeListDataObject.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Hub/EMRCommonHubUpgradeListDataObject.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 861,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Public/UI/Hub/EMRCommonHubUpgradeVoteWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Hub/EMRCommonHubUpgradeVoteWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2812,
+      "lines": 75
+    },
+    {
+      "path": "Source/LOD/Public/UI/Hub/EMRHubSummaryWorldWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Hub/EMRHubSummaryWorldWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3127,
+      "lines": 88
+    },
+    {
+      "path": "Source/LOD/Public/UI/Interaction/EMRInteractableNameWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Interaction/EMRInteractableNameWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 675,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Public/UI/Interaction/EMRItemDispenserOrderWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Interaction/EMRItemDispenserOrderWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 797,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Public/UI/Interaction/EMRItemDispenserSlotWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Interaction/EMRItemDispenserSlotWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 792,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Public/UI/Lobby/EMRQualitySettingsWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Lobby/EMRQualitySettingsWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3785,
+      "lines": 120
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/LabAnalyzer/EMRLabAnalyzerValidationErrorWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/LabAnalyzer/EMRLabAnalyzerValidationErrorWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 576,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/TreatmentBed/DEPRECATEDEMRTreatmentScreenWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/TreatmentBed/DEPRECATEDEMRTreatmentScreenWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 895,
+      "lines": 36
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRCommonTriageMainWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRCommonTriageMainWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2749,
+      "lines": 85
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRTriageMainWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRTriageMainWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2393,
+      "lines": 85
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCard.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCard.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3325,
+      "lines": 95
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCardCommonButton.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCardCommonButton.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 262,
+      "lines": 14
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCardListEntry.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCardListEntry.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 933,
+      "lines": 38
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCardObject.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientCardObject.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 723,
+      "lines": 32
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientDetailWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRTriagePatientDetailWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4101,
+      "lines": 133
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Triage/EMRTriageValidationErrorWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Triage/EMRTriageValidationErrorWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 905,
+      "lines": 35
+    },
+    {
+      "path": "Source/LOD/Public/UI/Machines/Ultrasound/EMRUltrasoundSliderWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Machines/Ultrasound/EMRUltrasoundSliderWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1431,
+      "lines": 54
+    },
+    {
+      "path": "Source/LOD/Public/UI/Patient/EMRPatientFolderWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Patient/EMRPatientFolderWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2594,
+      "lines": 102
+    },
+    {
+      "path": "Source/LOD/Public/UI/Patient/EMRPatientUIController.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Patient/EMRPatientUIController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2057,
+      "lines": 75
+    },
+    {
+      "path": "Source/LOD/Public/UI/Patient/EMRPatientUIData.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Patient/EMRPatientUIData.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2723,
+      "lines": 101
+    },
+    {
+      "path": "Source/LOD/Public/UI/Reference/EMRPathologyReferenceListEntryWidgetBase.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Reference/EMRPathologyReferenceListEntryWidgetBase.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1199,
+      "lines": 40
+    },
+    {
+      "path": "Source/LOD/Public/UI/Reference/EMRPathologyReferencePaperRowItem.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Reference/EMRPathologyReferencePaperRowItem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 885,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Public/UI/Reference/EMRPathologyReferencePaperWidget.h",
+      "snapshotPath": "files/Source/LOD/Public/UI/Reference/EMRPathologyReferencePaperWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1996,
+      "lines": 68
+    },
+    {
+      "path": "Source/LOD/Public/Utils/EMREndSessionTrace.h",
+      "snapshotPath": "files/Source/LOD/Public/Utils/EMREndSessionTrace.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 829,
+      "lines": 43
+    },
+    {
+      "path": "Source/LODEditor/Private/LODEditor.cpp",
+      "snapshotPath": "files/Source/LODEditor/Private/LODEditor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 107,
+      "lines": 6
+    },
+    {
+      "path": "Source/LODEditor/Private/Tools/EMRWidgetBlueprintDumpLibrary.cpp",
+      "snapshotPath": "files/Source/LODEditor/Private/Tools/EMRWidgetBlueprintDumpLibrary.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 20300,
+      "lines": 555
+    },
+    {
+      "path": "Source/LODEditor/Public/LODEditor.h",
+      "snapshotPath": "files/Source/LODEditor/Public/LODEditor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 107,
+      "lines": 8
+    },
+    {
+      "path": "Source/LODEditor/Public/Tools/EMRWidgetBlueprintDumpLibrary.h",
+      "snapshotPath": "files/Source/LODEditor/Public/Tools/EMRWidgetBlueprintDumpLibrary.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1172,
+      "lines": 28
+    }
+  ]
+}

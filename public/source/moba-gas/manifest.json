@@ -1,0 +1,1122 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "moba-gas",
+  "exportedAt": "2026-06-12T14:53:33.840Z",
+  "sourceRoots": [
+    "Source"
+  ],
+  "entryFile": "Source/LOD/Private/Player/MobaPlayerController.h",
+  "metrics": {
+    "fileCount": 137,
+    "totalBytes": 401458,
+    "totalLines": 13143,
+    "languageCounts": {
+      "cpp": 68,
+      "cpp-header": 69,
+      "csharp": 0
+    },
+    "ownershipCounts": {
+      "project-code": 137,
+      "project-plugin": 0,
+      "third-party-plugin": 0
+    }
+  },
+  "files": [
+    {
+      "path": "Source/LOD/LOD.cpp",
+      "snapshotPath": "files/Source/LOD/LOD.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 180,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/LOD.h",
+      "snapshotPath": "files/Source/LOD/LOD.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 48,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/MobaCustomCollisionChannels.h",
+      "snapshotPath": "files/Source/LOD/MobaCustomCollisionChannels.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 106,
+      "lines": 4
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaAIController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaAIController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7310,
+      "lines": 320
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaAIController.h",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaAIController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1913,
+      "lines": 77
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaBTTask_SendInputToASC.cpp",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaBTTask_SendInputToASC.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 696,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaBTTask_SendInputToASC.h",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaBTTask_SendInputToASC.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 475,
+      "lines": 20
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaMinion.cpp",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaMinion.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1995,
+      "lines": 80
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaMinion.h",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaMinion.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 887,
+      "lines": 43
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaMinionBarrack.cpp",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaMinionBarrack.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2546,
+      "lines": 108
+    },
+    {
+      "path": "Source/LOD/Private/AI/MobaMinionBarrack.h",
+      "snapshotPath": "files/Source/LOD/Private/AI/MobaMinionBarrack.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1218,
+      "lines": 53
+    },
+    {
+      "path": "Source/LOD/Private/Animation/MobaAnimInstance.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Animation/MobaAnimInstance.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3576,
+      "lines": 111
+    },
+    {
+      "path": "Source/LOD/Private/Animation/MobaAnimInstance.h",
+      "snapshotPath": "files/Source/LOD/Private/Animation/MobaAnimInstance.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4013,
+      "lines": 104
+    },
+    {
+      "path": "Source/LOD/Private/Animation/MobaAnimNotify_SendGameplayEvent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Animation/MobaAnimNotify_SendGameplayEvent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1556,
+      "lines": 56
+    },
+    {
+      "path": "Source/LOD/Private/Animation/MobaAnimNotify_SendGameplayEvent.h",
+      "snapshotPath": "files/Source/LOD/Private/Animation/MobaAnimNotify_SendGameplayEvent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 603,
+      "lines": 21
+    },
+    {
+      "path": "Source/LOD/Private/Animation/MobaAnimNotify_SendTargetsPositions.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Animation/MobaAnimNotify_SendTargetsPositions.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4553,
+      "lines": 144
+    },
+    {
+      "path": "Source/LOD/Private/Animation/MobaAnimNotify_SendTargetsPositions.h",
+      "snapshotPath": "files/Source/LOD/Private/Animation/MobaAnimNotify_SendTargetsPositions.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1198,
+      "lines": 40
+    },
+    {
+      "path": "Source/LOD/Private/Character/MobaCharacter.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Character/MobaCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 11996,
+      "lines": 508
+    },
+    {
+      "path": "Source/LOD/Private/Character/MobaCharacter.h",
+      "snapshotPath": "files/Source/LOD/Private/Character/MobaCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 6016,
+      "lines": 190
+    },
+    {
+      "path": "Source/LOD/Private/Data/Inventory/MobaShopItem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/Inventory/MobaShopItem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1152,
+      "lines": 73
+    },
+    {
+      "path": "Source/LOD/Private/Data/Inventory/MobaShopItem.h",
+      "snapshotPath": "files/Source/LOD/Private/Data/Inventory/MobaShopItem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3376,
+      "lines": 96
+    },
+    {
+      "path": "Source/LOD/Private/Data/MobaAbilitySystemGenerics.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/MobaAbilitySystemGenerics.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 172,
+      "lines": 8
+    },
+    {
+      "path": "Source/LOD/Private/Data/MobaAbilitySystemGenerics.h",
+      "snapshotPath": "files/Source/LOD/Private/Data/MobaAbilitySystemGenerics.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2119,
+      "lines": 58
+    },
+    {
+      "path": "Source/LOD/Private/Data/MobaCameraAimingProfile.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Data/MobaCameraAimingProfile.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 45,
+      "lines": 3
+    },
+    {
+      "path": "Source/LOD/Private/Data/MobaCameraAimingProfile.h",
+      "snapshotPath": "files/Source/LOD/Private/Data/MobaCameraAimingProfile.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 574,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Private/Framework/MobaAssetManager.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/MobaAssetManager.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2749,
+      "lines": 115
+    },
+    {
+      "path": "Source/LOD/Private/Framework/MobaAssetManager.h",
+      "snapshotPath": "files/Source/LOD/Private/Framework/MobaAssetManager.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1032,
+      "lines": 37
+    },
+    {
+      "path": "Source/LOD/Private/Framework/MobaDestroyer.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/MobaDestroyer.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7332,
+      "lines": 258
+    },
+    {
+      "path": "Source/LOD/Private/Framework/MobaDestroyer.h",
+      "snapshotPath": "files/Source/LOD/Private/Framework/MobaDestroyer.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3140,
+      "lines": 105
+    },
+    {
+      "path": "Source/LOD/Private/Framework/MobaGameMode.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Framework/MobaGameMode.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2400,
+      "lines": 106
+    },
+    {
+      "path": "Source/LOD/Private/Framework/MobaGameMode.h",
+      "snapshotPath": "files/Source/LOD/Private/Framework/MobaGameMode.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 861,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_BlackHole.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_BlackHole.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8491,
+      "lines": 198
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_BlackHole.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_BlackHole.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3141,
+      "lines": 96
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Combo.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Combo.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5986,
+      "lines": 175
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Combo.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Combo.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1413,
+      "lines": 49
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_GroundBlast.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_GroundBlast.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5517,
+      "lines": 146
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_GroundBlast.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_GroundBlast.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2056,
+      "lines": 60
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Laser.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Laser.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6047,
+      "lines": 143
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Laser.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Laser.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1931,
+      "lines": 62
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Shoot.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Shoot.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6982,
+      "lines": 217
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Shoot.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Shoot.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2188,
+      "lines": 69
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Uppercut.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Uppercut.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6028,
+      "lines": 163
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Uppercut.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility_Uppercut.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1089,
+      "lines": 40
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8625,
+      "lines": 263
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbility.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbility.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2127,
+      "lines": 53
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Dead.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Dead.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6660,
+      "lines": 164
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Dead.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Dead.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2000,
+      "lines": 48
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Push.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Push.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1513,
+      "lines": 47
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Push.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayAbilityPassive_Push.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 642,
+      "lines": 22
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayTypes.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayTypes.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 637,
+      "lines": 31
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaGameplayTypes.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaGameplayTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2514,
+      "lines": 116
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaTargetActor_BlackHole.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaTargetActor_BlackHole.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6176,
+      "lines": 208
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaTargetActor_BlackHole.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaTargetActor_BlackHole.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2535,
+      "lines": 86
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaTargetActor_Line.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaTargetActor_Line.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6014,
+      "lines": 207
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Abilities/MobaTargetActor_Line.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Abilities/MobaTargetActor_Line.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2169,
+      "lines": 76
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Attributes/MobaAttributeSet_Hero.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Attributes/MobaAttributeSet_Hero.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3393,
+      "lines": 94
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Attributes/MobaAttributeSet_Hero.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Attributes/MobaAttributeSet_Hero.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4236,
+      "lines": 106
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Attributes/MobaAttributeSet.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Attributes/MobaAttributeSet.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5383,
+      "lines": 201
+    },
+    {
+      "path": "Source/LOD/Private/GAS/Attributes/MobaAttributeSet.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/Attributes/MobaAttributeSet.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 5908,
+      "lines": 150
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaAbilitySystemComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaAbilitySystemComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 13516,
+      "lines": 396
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaAbilitySystemComponent.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaAbilitySystemComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3085,
+      "lines": 107
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaAbilitySystemStatics.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaAbilitySystemStatics.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5055,
+      "lines": 151
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaAbilitySystemStatics.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaAbilitySystemStatics.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1434,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaGameplayTags.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaGameplayTags.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 13229,
+      "lines": 203
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaGameplayTags.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaGameplayTags.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 7096,
+      "lines": 202
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaMMC_BaseAttackDamage.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaMMC_BaseAttackDamage.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2426,
+      "lines": 63
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaMMC_BaseAttackDamage.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaMMC_BaseAttackDamage.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 633,
+      "lines": 22
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaMMC_ScalingByLevel.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaMMC_ScalingByLevel.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1278,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaMMC_ScalingByLevel.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaMMC_ScalingByLevel.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 612,
+      "lines": 25
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaProjectileActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaProjectileActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3557,
+      "lines": 133
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaProjectileActor.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaProjectileActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1459,
+      "lines": 53
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaTargetActor_PickGroundTarget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaTargetActor_PickGroundTarget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4187,
+      "lines": 130
+    },
+    {
+      "path": "Source/LOD/Private/GAS/MobaTargetActor_PickGroundTarget.h",
+      "snapshotPath": "files/Source/LOD/Private/GAS/MobaTargetActor_PickGroundTarget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1464,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/MobaAbilityInterface.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/MobaAbilityInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 148,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/MobaAbilityInterface.h",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/MobaAbilityInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 701,
+      "lines": 29
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/MobaRenderActorTargetInterface.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/MobaRenderActorTargetInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 168,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/MobaRenderActorTargetInterface.h",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/MobaRenderActorTargetInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 593,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/MobaTreeNodeInterface.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/MobaTreeNodeInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 150,
+      "lines": 6
+    },
+    {
+      "path": "Source/LOD/Private/Interfaces/MobaTreeNodeInterface.h",
+      "snapshotPath": "files/Source/LOD/Private/Interfaces/MobaTreeNodeInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 709,
+      "lines": 26
+    },
+    {
+      "path": "Source/LOD/Private/Inventory/MobaInventoryComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Inventory/MobaInventoryComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 13086,
+      "lines": 471
+    },
+    {
+      "path": "Source/LOD/Private/Inventory/MobaInventoryComponent.h",
+      "snapshotPath": "files/Source/LOD/Private/Inventory/MobaInventoryComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3455,
+      "lines": 107
+    },
+    {
+      "path": "Source/LOD/Private/Inventory/MobaInventoryItem.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Inventory/MobaInventoryItem.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7746,
+      "lines": 309
+    },
+    {
+      "path": "Source/LOD/Private/Inventory/MobaInventoryItem.h",
+      "snapshotPath": "files/Source/LOD/Private/Inventory/MobaInventoryItem.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3029,
+      "lines": 106
+    },
+    {
+      "path": "Source/LOD/Private/MobaInventoryItemDragDropOp.cpp",
+      "snapshotPath": "files/Source/LOD/Private/MobaInventoryItemDragDropOp.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 553,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Private/MobaInventoryItemDragDropOp.h",
+      "snapshotPath": "files/Source/LOD/Private/MobaInventoryItemDragDropOp.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 504,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Private/Player/MobaCameraAimComponent.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Player/MobaCameraAimComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3684,
+      "lines": 142
+    },
+    {
+      "path": "Source/LOD/Private/Player/MobaCameraAimComponent.h",
+      "snapshotPath": "files/Source/LOD/Private/Player/MobaCameraAimComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1803,
+      "lines": 61
+    },
+    {
+      "path": "Source/LOD/Private/Player/MobaPlayerCharacter.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Player/MobaPlayerCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8958,
+      "lines": 294
+    },
+    {
+      "path": "Source/LOD/Private/Player/MobaPlayerCharacter.h",
+      "snapshotPath": "files/Source/LOD/Private/Player/MobaPlayerCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4816,
+      "lines": 158
+    },
+    {
+      "path": "Source/LOD/Private/Player/MobaPlayerController.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Player/MobaPlayerController.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4190,
+      "lines": 172
+    },
+    {
+      "path": "Source/LOD/Private/Player/MobaPlayerController.h",
+      "snapshotPath": "files/Source/LOD/Private/Player/MobaPlayerController.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2293,
+      "lines": 81
+    },
+    {
+      "path": "Source/LOD/Private/SceneCapture/MobaSceneCaptureActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/SceneCapture/MobaSceneCaptureActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1311,
+      "lines": 51
+    },
+    {
+      "path": "Source/LOD/Private/SceneCapture/MobaSceneCaptureActor.h",
+      "snapshotPath": "files/Source/LOD/Private/SceneCapture/MobaSceneCaptureActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 760,
+      "lines": 33
+    },
+    {
+      "path": "Source/LOD/Private/SceneCapture/MobaSkeletalMeshSceneCaptureActor.cpp",
+      "snapshotPath": "files/Source/LOD/Private/SceneCapture/MobaSkeletalMeshSceneCaptureActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1116,
+      "lines": 42
+    },
+    {
+      "path": "Source/LOD/Private/SceneCapture/MobaSkeletalMeshSceneCaptureActor.h",
+      "snapshotPath": "files/Source/LOD/Private/SceneCapture/MobaSkeletalMeshSceneCaptureActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 590,
+      "lines": 24
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Inventory/MobaInventoryContextMenuWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Inventory/MobaInventoryContextMenuWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 332,
+      "lines": 16
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Inventory/MobaInventoryContextMenuWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Inventory/MobaInventoryContextMenuWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 588,
+      "lines": 27
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Inventory/MobaInventoryItemSlotWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Inventory/MobaInventoryItemSlotWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8166,
+      "lines": 287
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Inventory/MobaInventoryItemSlotWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Inventory/MobaInventoryItemSlotWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3854,
+      "lines": 123
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Inventory/MobaInventoryWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Inventory/MobaInventoryWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8037,
+      "lines": 253
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Inventory/MobaInventoryWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Inventory/MobaInventoryWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2243,
+      "lines": 71
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaAbilityListViewWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaAbilityListViewWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1508,
+      "lines": 51
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaAbilityListViewWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaAbilityListViewWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 729,
+      "lines": 30
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaAbilitySlotWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaAbilitySlotWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 7697,
+      "lines": 209
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaAbilitySlotWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaAbilitySlotWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3504,
+      "lines": 126
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaCrosshairWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaCrosshairWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2745,
+      "lines": 95
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaCrosshairWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaCrosshairWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1266,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaGameplayMenuWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaGameplayMenuWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 893,
+      "lines": 42
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaGameplayMenuWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaGameplayMenuWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 851,
+      "lines": 43
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaGameplayWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaGameplayWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 4297,
+      "lines": 164
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaGameplayWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaGameplayWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3286,
+      "lines": 120
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaHUDResourceBarWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaHUDResourceBarWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2939,
+      "lines": 91
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaHUDResourceBarWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaHUDResourceBarWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1401,
+      "lines": 50
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaItemTooltipWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaItemTooltipWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 597,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaItemTooltipWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaItemTooltipWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 705,
+      "lines": 34
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaItemWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaItemWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2078,
+      "lines": 93
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaItemWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaItemWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1059,
+      "lines": 43
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaLevelProgressWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaLevelProgressWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2884,
+      "lines": 66
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaLevelProgressWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaLevelProgressWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 976,
+      "lines": 41
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaMatchStatsWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaMatchStatsWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1897,
+      "lines": 56
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaMatchStatsWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaMatchStatsWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1198,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaOverheadResourceBarWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaOverheadResourceBarWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 916,
+      "lines": 23
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaOverheadResourceBarWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaOverheadResourceBarWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 634,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaPlayerStatWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaPlayerStatWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1435,
+      "lines": 58
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaPlayerStatWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaPlayerStatWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1114,
+      "lines": 45
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaSceneCaptureActorWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaSceneCaptureActorWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2003,
+      "lines": 87
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaSceneCaptureActorWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaSceneCaptureActorWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1440,
+      "lines": 56
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaSkeletalMeshSceneCaptureWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaSkeletalMeshSceneCaptureWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1779,
+      "lines": 46
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaSkeletalMeshSceneCaptureWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaSkeletalMeshSceneCaptureWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 755,
+      "lines": 28
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaSplineWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaSplineWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1622,
+      "lines": 44
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaSplineWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaSplineWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1671,
+      "lines": 60
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaTreeWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaTreeWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 5814,
+      "lines": 148
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/MobaTreeWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/MobaTreeWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2049,
+      "lines": 57
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Shop/MobaShopItemSlotWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Shop/MobaShopItemSlotWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3233,
+      "lines": 130
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Shop/MobaShopItemSlotWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Shop/MobaShopItemSlotWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1621,
+      "lines": 52
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Shop/MobaShopWidget.cpp",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Shop/MobaShopWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2016,
+      "lines": 74
+    },
+    {
+      "path": "Source/LOD/Private/Widgets/Shop/MobaShopWidget.h",
+      "snapshotPath": "files/Source/LOD/Private/Widgets/Shop/MobaShopWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 994,
+      "lines": 41
+    }
+  ]
+}

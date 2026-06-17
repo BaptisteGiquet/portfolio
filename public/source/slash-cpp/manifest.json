@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "slash-cpp",
+  "exportedAt": "2026-06-12T14:53:33.838Z",
+  "sourceRoots": [
+    "Source"
+  ],
+  "entryFile": "Source/Slash/Public/Characters/SlashMyCharacter.h",
+  "metrics": {
+    "fileCount": 41,
+    "totalBytes": 76229,
+    "totalLines": 2852,
+    "languageCounts": {
+      "cpp": 19,
+      "cpp-header": 22,
+      "csharp": 0
+    },
+    "ownershipCounts": {
+      "project-code": 41,
+      "project-plugin": 0,
+      "third-party-plugin": 0
+    }
+  },
+  "files": [
+    {
+      "path": "Source/Slash/DebugMacros.h",
+      "snapshotPath": "files/Source/Slash/DebugMacros.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1312,
+      "lines": 13
+    },
+    {
+      "path": "Source/Slash/InitialClass.cpp",
+      "snapshotPath": "files/Source/Slash/InitialClass.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 188,
+      "lines": 12
+    },
+    {
+      "path": "Source/Slash/InitialClass.h",
+      "snapshotPath": "files/Source/Slash/InitialClass.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 224,
+      "lines": 15
+    },
+    {
+      "path": "Source/Slash/Private/Breakable/BreakableActor.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Breakable/BreakableActor.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1747,
+      "lines": 61
+    },
+    {
+      "path": "Source/Slash/Private/Characters/BaseCharacter.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Characters/BaseCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 6584,
+      "lines": 249
+    },
+    {
+      "path": "Source/Slash/Private/Characters/SlashAnimInstance.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Characters/SlashAnimInstance.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1254,
+      "lines": 49
+    },
+    {
+      "path": "Source/Slash/Private/Characters/SlashMyCharacter.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Characters/SlashMyCharacter.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 10264,
+      "lines": 361
+    },
+    {
+      "path": "Source/Slash/Private/Components/AttributeComponent.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Components/AttributeComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 1958,
+      "lines": 91
+    },
+    {
+      "path": "Source/Slash/Private/Enemy/Enemy.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Enemy/Enemy.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 8384,
+      "lines": 339
+    },
+    {
+      "path": "Source/Slash/Private/HUD/HealthBarWidget.cpp",
+      "snapshotPath": "files/Source/Slash/Private/HUD/HealthBarWidget.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 120,
+      "lines": 5
+    },
+    {
+      "path": "Source/Slash/Private/HUD/HealthBarWidgetComponent.cpp",
+      "snapshotPath": "files/Source/Slash/Private/HUD/HealthBarWidgetComponent.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 449,
+      "lines": 20
+    },
+    {
+      "path": "Source/Slash/Private/HUD/SlashHUD.cpp",
+      "snapshotPath": "files/Source/Slash/Private/HUD/SlashHUD.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 568,
+      "lines": 25
+    },
+    {
+      "path": "Source/Slash/Private/HUD/SlashOverlay.cpp",
+      "snapshotPath": "files/Source/Slash/Private/HUD/SlashOverlay.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 881,
+      "lines": 40
+    },
+    {
+      "path": "Source/Slash/Private/Interfaces/HitInterface.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Interfaces/HitInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 218,
+      "lines": 6
+    },
+    {
+      "path": "Source/Slash/Private/Interfaces/PickupInterface.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Interfaces/PickupInterface.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 232,
+      "lines": 16
+    },
+    {
+      "path": "Source/Slash/Private/Items/Item.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Items/Item.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3795,
+      "lines": 145
+    },
+    {
+      "path": "Source/Slash/Private/Items/Soul.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Items/Soul.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 983,
+      "lines": 49
+    },
+    {
+      "path": "Source/Slash/Private/Items/Weapons/Weapon.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Items/Weapons/Weapon.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 3985,
+      "lines": 116
+    },
+    {
+      "path": "Source/Slash/Private/Pawns/Bird.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Pawns/Bird.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 2670,
+      "lines": 90
+    },
+    {
+      "path": "Source/Slash/Private/Pickups/Treasure.cpp",
+      "snapshotPath": "files/Source/Slash/Private/Pickups/Treasure.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 498,
+      "lines": 16
+    },
+    {
+      "path": "Source/Slash/Public/Breakable/BreakableActor.h",
+      "snapshotPath": "files/Source/Slash/Public/Breakable/BreakableActor.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1386,
+      "lines": 50
+    },
+    {
+      "path": "Source/Slash/Public/Characters/BaseCharacter.h",
+      "snapshotPath": "files/Source/Slash/Public/Characters/BaseCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2716,
+      "lines": 95
+    },
+    {
+      "path": "Source/Slash/Public/Characters/CharacterTypes.h",
+      "snapshotPath": "files/Source/Slash/Public/Characters/CharacterTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1209,
+      "lines": 43
+    },
+    {
+      "path": "Source/Slash/Public/Characters/SlashAnimInstance.h",
+      "snapshotPath": "files/Source/Slash/Public/Characters/SlashAnimInstance.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1185,
+      "lines": 45
+    },
+    {
+      "path": "Source/Slash/Public/Characters/SlashMyCharacter.h",
+      "snapshotPath": "files/Source/Slash/Public/Characters/SlashMyCharacter.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 4587,
+      "lines": 153
+    },
+    {
+      "path": "Source/Slash/Public/Components/AttributeComponent.h",
+      "snapshotPath": "files/Source/Slash/Public/Components/AttributeComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 2812,
+      "lines": 101
+    },
+    {
+      "path": "Source/Slash/Public/Enemy/Enemy.h",
+      "snapshotPath": "files/Source/Slash/Public/Enemy/Enemy.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3671,
+      "lines": 138
+    },
+    {
+      "path": "Source/Slash/Public/HUD/HealthBarWidget.h",
+      "snapshotPath": "files/Source/Slash/Public/HUD/HealthBarWidget.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 341,
+      "lines": 20
+    },
+    {
+      "path": "Source/Slash/Public/HUD/HealthBarWidgetComponent.h",
+      "snapshotPath": "files/Source/Slash/Public/HUD/HealthBarWidgetComponent.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 444,
+      "lines": 26
+    },
+    {
+      "path": "Source/Slash/Public/HUD/SlashHUD.h",
+      "snapshotPath": "files/Source/Slash/Public/HUD/SlashHUD.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 530,
+      "lines": 29
+    },
+    {
+      "path": "Source/Slash/Public/HUD/SlashOverlay.h",
+      "snapshotPath": "files/Source/Slash/Public/HUD/SlashOverlay.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 720,
+      "lines": 35
+    },
+    {
+      "path": "Source/Slash/Public/Interfaces/HitInterface.h",
+      "snapshotPath": "files/Source/Slash/Public/Interfaces/HitInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 626,
+      "lines": 27
+    },
+    {
+      "path": "Source/Slash/Public/Interfaces/PickupInterface.h",
+      "snapshotPath": "files/Source/Slash/Public/Interfaces/PickupInterface.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 463,
+      "lines": 27
+    },
+    {
+      "path": "Source/Slash/Public/Items/Item.h",
+      "snapshotPath": "files/Source/Slash/Public/Items/Item.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 3997,
+      "lines": 134
+    },
+    {
+      "path": "Source/Slash/Public/Items/ItemsTypes.h",
+      "snapshotPath": "files/Source/Slash/Public/Items/ItemsTypes.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 232,
+      "lines": 9
+    },
+    {
+      "path": "Source/Slash/Public/Items/Soul.h",
+      "snapshotPath": "files/Source/Slash/Public/Items/Soul.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 656,
+      "lines": 29
+    },
+    {
+      "path": "Source/Slash/Public/Items/Weapons/Weapon.h",
+      "snapshotPath": "files/Source/Slash/Public/Items/Weapons/Weapon.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1879,
+      "lines": 68
+    },
+    {
+      "path": "Source/Slash/Public/Pawns/Bird.h",
+      "snapshotPath": "files/Source/Slash/Public/Pawns/Bird.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 1388,
+      "lines": 58
+    },
+    {
+      "path": "Source/Slash/Public/Pickups/Treasure.h",
+      "snapshotPath": "files/Source/Slash/Public/Pickups/Treasure.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 733,
+      "lines": 35
+    },
+    {
+      "path": "Source/Slash/Slash.cpp",
+      "snapshotPath": "files/Source/Slash/Slash.cpp",
+      "language": "cpp",
+      "ownership": "project-code",
+      "bytes": 214,
+      "lines": 6
+    },
+    {
+      "path": "Source/Slash/Slash.h",
+      "snapshotPath": "files/Source/Slash/Slash.h",
+      "language": "cpp-header",
+      "ownership": "project-code",
+      "bytes": 126,
+      "lines": 6
+    }
+  ]
+}
